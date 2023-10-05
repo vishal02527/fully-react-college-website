@@ -2,8 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 65vh;
+    padding-bottom: 1%;
     background-color: #f5f5f5;
+  }
+  .errorImage{
+    width: 400px;
+    height: 300px;
   }
   
   .content {
@@ -23,7 +28,7 @@
   
   .link {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 5px;
     font-size: 18px;
     color: #007bff;
     text-decoration: none;
@@ -31,6 +36,6 @@
   }
   
   .link:hover {
-    color: #0056b3;
+    color: #024a97;
   }
   

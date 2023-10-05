@@ -1,10 +1,11 @@
 import React, { useRef, useEffect, useState } from "react";
 import Slider from "react-slick";
-import styles from "./Home.module.css"; 
+import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 import Card from "./Home Cards/Card";
 import NoticeBoard from "../Notices/Notices and updates board/NoticeBoard";
 import AdmissionNoticeBoard from "../Notices/Admission list board/AdmissionList";
+import creator from '../images/creator.jpg'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -32,7 +33,6 @@ function Home() {
 
   return (
     <div className={styles.home}>
-
       {/* Carousel */}
       <section className={styles.carousel}>
         <div className={styles.carouselContainer}>
@@ -126,6 +126,88 @@ function Home() {
           <Link to={"/e-learning"} className={styles.portalLink}>
             <div className={styles.portalbtn}>E-Learning</div>
           </Link>
+        </div>
+      </section>
+      <section className={styles.importantPersonSection}>
+        <div className={styles.governorDiv}>
+          <img
+            src="https://rmpssu.ac.in/images/UP-GOVERNOR.jpg"
+            alt="Governor of U.P."
+            width="260"
+            height="250"
+          />
+          <div className={styles.governorDetailDiv}>
+            <h8 className={styles.governorName}>
+              Smt. Anandiben Patel
+            </h8>
+            <p className={styles.governorPara}>
+              Hon’ble Chancellor &amp;
+              <br /><br />
+              H.E. Governor of U.P.
+            </p>
+
+            <button className={styles.ProfileBtn}>
+              <a
+                class="msg-btn"
+                href="https://upgovernor.gov.in/en/page/profile"
+                target="_blank"
+              >
+                View Profile
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className={styles.viceChancellorDiv}>
+          <img
+            src={creator}
+            alt="vice chancellor of university"
+            width="260"
+            height="250"
+          />
+          <div className={styles.viceChancellorDetailDiv}>
+            <h8 className={styles.viceChancellorName}>
+              Mr. Vishal Kumar
+            </h8>
+            <p className={styles.viceChancellorPara}>
+              Hon’ble Vice Chancellor &amp;
+              <br /><br />
+              Founder or Creator of V.D.U.
+            </p>
+
+            <button className={styles.ProfileBtn}>
+              <a
+                href="#"
+              >
+                View Profile
+              </a>
+            </button>
+          </div>
+        </div>
+        <div className={styles.headOfCommitteeDiv}>
+          <img
+            src="https://rmpssu.ac.in/img/VC.jpeg"
+            alt="head of anti ragging committee"
+            width="260"
+            height="250"
+          />
+          <div className={styles.headOfCommitteeDetailDiv}>
+            <h8 className={styles.headOfCommitteeName}>
+              Professor Chandrakant Mishra
+            </h8>
+            <p className={styles.headOfCommitteePara}>
+              Head of anti ragging committee &amp;
+              <br /><br />
+              examination controller of V.D.U.
+            </p>
+
+            <button className={styles.ProfileBtn}>
+              <a
+                href="#"
+              >
+                View Profile
+              </a>
+            </button>
+          </div>
         </div>
       </section>
       {/* College Feature Cards */}

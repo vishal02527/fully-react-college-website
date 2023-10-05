@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./404Page.module.css";
+import errorImage from '../images/404-error-image.png'
 
 function PageNotFound() {
   return (
     <div className={styles.pageNotFound}>
       <div className={styles.content}>
-        <h1 className={styles.title}>404 - Page Not Found</h1>
+        <img src={errorImage} className={styles.errorImage} />
         <p className={styles.description}>
           Oops! The page you are looking for might have been removed or is
           temporarily unavailable.
