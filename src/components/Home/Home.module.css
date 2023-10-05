@@ -1,0 +1,65 @@
+.home{
+    margin: 0% 0% 5% 0%;
+}
+.portalbtn{
+    display: inline-block;
+    max-width: 120px;
+    padding: 20px;
+    border: none;
+    margin: 15px;
+    background-color: #0084ff;
+    border-radius: 10px;
+    color: #fff;
+    transition: linear 0.5s;
+}
+.portalbtn:hover{
+    background-color: #fff;
+    color: #0084ff;
+    border: 1px solid #0084ff;
+}
+.portals{
+    border: 2px solid #cdcaca;
+    background-color: #f1f1f1;
+    color: red;
+    margin: 80px 1% 50px 0px;
+    padding: 0% 0% 2%;
+}
+.portalLinks{
+    margin-top: 2%;
+}
+.cards{
+    color: red;
+}
+
+.marqueediv{
+    margin: 30px 1% 0px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.latestnews{
+    background-color: red;
+    color: #fff;
+    width: 110px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 5px;
+}
+a{
+    text-decoration: none;
+}
+a span{
+    margin-right: 20px;
+}
+.collegenotices{
+    margin: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardContainer{
+    margin-top: 40px;
+}

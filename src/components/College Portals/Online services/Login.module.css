@@ -1,0 +1,58 @@
+.loginContainer {
+    width: 300px;
+    margin: 2% 39.5%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .logform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logform .formGroup {
+    margin-bottom: 10px;
+    margin-right: 60px;
+  }
+  
+  .logform label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 40px;
+  }
+  
+  .loginput {
+    width: 120%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px #ccc;
+  }
+  .loginput:focus {
+    outline: none;
+    border: 2px solid #6cafee;
+    box-shadow: 0px 2px 5px #ccc, 0px 0px 4px #007bff;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .error {
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  

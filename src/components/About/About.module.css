@@ -1,0 +1,24 @@
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .aboutContainer h2 {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .aboutContainer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .aboutContainer h3 {
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,28 @@
+.collegesContainer {
+    padding: 20px;
+    margin: 0% 10% 2%;
+  }
+  
+  .collegeTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  
+  .collegeTable th,
+  .collegeTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .collegeTable th {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .collegeTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

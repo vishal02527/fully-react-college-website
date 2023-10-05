@@ -1,0 +1,41 @@
+.eLearning {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .coursesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .coursesList li {
+    margin-bottom: 10px;
+  }
+  
+  .coursesList a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    transition: color 0.2s;
+  }
+  
+  .coursesList a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
