@@ -62,7 +62,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <p className={styles.creater}>&copy; created by Vishal Kumar</p>
+      <p className={styles.creator}>&copy; created by Vishal Kumar</p>
     </footer>
   );
 }

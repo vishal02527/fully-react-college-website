@@ -43,6 +43,7 @@ function Home() {
                 alt="Carousel 1"
                 width={1600}
                 height={500}
+                className={styles.carouselImage}
               />
             </div>
             <div>
@@ -51,6 +52,7 @@ function Home() {
                 alt="Carousel 3"
                 width={1600}
                 height={500}
+                className={styles.carouselImage}
               />
             </div>
             <div>
@@ -59,6 +61,7 @@ function Home() {
                 alt="Carousel 2"
                 width={1600}
                 height={500}
+                className={styles.carouselImage}
               />
             </div>
             <div>
@@ -67,6 +70,7 @@ function Home() {
                 alt="Carousel 3"
                 width={1600}
                 height={500}
+                className={styles.carouselImage}
               />
             </div>
             <div>
@@ -75,6 +79,7 @@ function Home() {
                 alt="Carousel 3"
                 width={1600}
                 height={500}
+                className={styles.carouselImage}
               />
             </div>
           </Slider>
@@ -128,6 +133,7 @@ function Home() {
           </Link>
         </div>
       </section>
+      {/* Important person of the university */}
       <section className={styles.importantPersonSection}>
         <div className={styles.governorDiv}>
           <img
@@ -157,21 +163,21 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className={styles.viceChancellorDiv}>
+        <div className={styles.creatorDiv}>
           <img
             src={creator}
-            alt="vice chancellor of university"
+            alt="creator of V.D.U"
             width="260"
             height="250"
           />
-          <div className={styles.viceChancellorDetailDiv}>
-            <h8 className={styles.viceChancellorName}>
+          <div className={styles.creatorDetailDiv}>
+            <h8 className={styles.creatorName}>
               Mr. Vishal Kumar
             </h8>
-            <p className={styles.viceChancellorPara}>
-              Hon’ble Vice Chancellor &amp;
+            <p className={styles.creatorPara}>
+              Hon’ble Founder &amp;
               <br /><br />
-              Founder or Creator of V.D.U.
+              Creator of V.D.U.
             </p>
 
             <button className={styles.ProfileBtn}>
@@ -183,21 +189,21 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className={styles.headOfCommitteeDiv}>
+        <div className={styles.viceChancellorDiv}>
           <img
             src="https://rmpssu.ac.in/img/VC.jpeg"
-            alt="head of anti ragging committee"
+            alt="vice chancellor"
             width="260"
             height="250"
           />
-          <div className={styles.headOfCommitteeDetailDiv}>
-            <h8 className={styles.headOfCommitteeName}>
-              Professor Chandrakant Mishra
+          <div className={styles.viceChancellorDetailDiv}>
+            <h8 className={styles.viceChancellorName}>
+              Professor Chandrashekhar
             </h8>
-            <p className={styles.headOfCommitteePara}>
-              Head of anti ragging committee &amp;
+            <p className={styles.viceChancellorPara}>
+              Hon’ble vice chancellor &amp;
               <br /><br />
-              examination controller of V.D.U.
+              Head of anti-ragging committee
             </p>
 
             <button className={styles.ProfileBtn}>

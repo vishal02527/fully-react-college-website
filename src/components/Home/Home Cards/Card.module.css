@@ -37,3 +37,21 @@
     margin-top: 8px;
   }
   
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+    max-height: none; 
+    flex-direction: column; 
+    margin: 20px auto; 
+  }
+
+  .cardContent {
+    padding: 16px 16px 0px 16px;
+  }
+
+  .cardTitle {
+    font-size: 16px;
+  }
+
+}

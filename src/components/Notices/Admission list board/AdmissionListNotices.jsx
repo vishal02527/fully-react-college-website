@@ -10,7 +10,7 @@ function AdmissionListNotices() {
 
   if (notice === "List of Students for FEE Submission (Certificate)") {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           List of Students for FEE Submission (Certificate)
         </h2>
@@ -25,7 +25,7 @@ function AdmissionListNotices() {
     "Documents verification has started of candidates seeking admission in B.B.A"
   ) {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           Documents verification has started of candidates seeking admission in
           B.B.A
@@ -41,7 +41,7 @@ function AdmissionListNotices() {
     "List of Post Graduate Candidates for Interviews (Distance Centre)"
   ) {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           List of Post Graduate Candidates for Interviews (Distance Centre)
         </h2>
@@ -56,7 +56,7 @@ function AdmissionListNotices() {
     "Couselling-cum-Admission schedule for M.Sc. (Chemistry) under SFS"
   ) {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           Couselling-cum-Admission schedule for M.Sc. (Chemistry) under SFS
         </h2>
@@ -68,7 +68,7 @@ function AdmissionListNotices() {
     );
   } else if (notice === "Rescheduling of B.E. Admission Interview") {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           Rescheduling of B.E. Admission Interview
         </h2>
@@ -82,7 +82,7 @@ function AdmissionListNotices() {
     notice === "Inviting interested candidates for admission in B.Com (Online)"
   ) {
     noticeContent = (
-      <div>
+      <div style={{height: '50vh'}}>
         <h2 style={{ color: "red" }}>
           Inviting interested candidates for admission in B.Com (Online)
         </h2>

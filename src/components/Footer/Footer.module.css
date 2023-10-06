@@ -59,8 +59,60 @@
     color: #fff;
   }
 
-  .creater{
+  .creator{
     margin: 10px 0px -15px;
     font-size: 18px;
   }
   
+  /* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0 30px; /* Adjust padding for spacing */
+  }
+
+  .container {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
+
+  .column {
+    padding: 0; /* Remove column padding */
+    text-align: center; /* Center-align column content */
+  }
+
+  .title {
+    font-size: 18px; /* Reduce font size for smaller screens */
+    margin-bottom: 10px; /* Adjust margin for spacing */
+  }
+
+  .contactInfo {
+    margin: 5px 0; /* Adjust margin for spacing */
+  }
+
+  .linkList {
+    text-align: center; /* Center-align link list */
+  }
+
+  .linkList li {
+    margin: 10px 0;
+  }
+
+  .link {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .socialLinks {
+    margin-top: 10px; /* Adjust margin for spacing */
+  }
+
+  .socialIcon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+
+  .creator {
+    margin-top: 20px;
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}

@@ -10,8 +10,8 @@ function LatestNews() {
 
   if (newsName === "online-noc") {
     newsContent = (
-      <div>
-        <h2>Online NOC and Affiliation System</h2>
+      <div style={{height: '50vh'}}>
+        <h2 style={{color: 'red'}}>Online NOC and Affiliation System</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.
@@ -20,8 +20,8 @@ function LatestNews() {
     );
   } else if (newsName === "registrar-notice") {
     newsContent = (
-      <div>
-        <h2>Registrar Notice-International Day of Non-Violence</h2>
+      <div style={{height: '50vh'}}>
+        <h2 style={{color: 'red'}}>Registrar Notice-International Day of Non-Violence</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.
@@ -30,8 +30,8 @@ function LatestNews() {
     );
   } else if (newsName === "recruitment-advertisement") {
     newsContent = (
-      <div>
-        <h2>Recruitment Advertisement-Guest Faculty 2023-24</h2>
+      <div style={{height: '50vh'}}>
+        <h2 style={{color: 'red'}}>Recruitment Advertisement-Guest Faculty 2023-24</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.
