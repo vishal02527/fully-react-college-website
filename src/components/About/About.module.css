@@ -1,6 +1,6 @@
 .aboutContainer {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     padding: 20px;
   }
   
@@ -22,3 +22,27 @@
     margin-top: 20px;
   }
   
+  /* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .aboutContainer {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .aboutContainer h2 {
+    font-size: 20px; /* Adjust font size for headings */
+    margin-bottom: 8px; /* Adjust margin for headings */
+  }
+
+  .aboutContainer p {
+    font-size: 14px; /* Adjust font size for paragraphs */
+    line-height: 1.4; /* Adjust line height for paragraphs */
+    margin: 0px 10px;
+  }
+
+  .aboutContainer h3 {
+    font-size: 18px; /* Adjust font size for subheadings */
+    margin-top: 16px; /* Adjust margin for subheadings */
+  }
+}

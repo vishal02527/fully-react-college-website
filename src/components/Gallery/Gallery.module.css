@@ -3,8 +3,8 @@
     margin: 50px 10% 80px;
   }
   
-  h2 {
-    font-size: 24px;
+  .gallery h2 {
+    color: red;
   }
   
   .imageGrid {
@@ -70,3 +70,32 @@
     color: #f44336;
   }
   
+  /* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .gallery {
+    margin: 20px 5% 50px; /* Adjust margins for smaller screens */
+  }
+
+  .imageGrid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust grid columns for smaller screens */
+    gap: 10px; /* Reduce gap for smaller screens */
+  }
+
+  .imageContainer {
+    height: 100px; /* Reduce image container height for smaller screens */
+    border-radius: 4px; /* Reduce border radius for smaller screens */
+  }
+
+  .modalImage {
+    max-width: 100%; /* Ensure the modal image fits within the screen width */
+    max-height: 100%; /* Ensure the modal image fits within the screen height */
+  }
+  
+  .close {
+    top: 10px; /* Adjust close button position for smaller screens */
+    right: 20px; /* Adjust close button position for smaller screens */
+    font-size: 24px; /* Adjust close button font size for smaller screens */
+  }
+}

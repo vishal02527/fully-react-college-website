@@ -28,7 +28,7 @@
   
   .course-details ul {
     list-style: none;
-    margin-left: 20px;
+    margin-right: 40px;
   }
   
   .course-details li {
@@ -37,3 +37,36 @@
     margin-bottom: 5px;
   }
   
+  /* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .course-details-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin: 5% auto; /* Center the content vertically */
+  }
+
+  .course-details {
+    max-width: 90%; /* Adjust the maximum width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .course-details h2 {
+    font-size: 18px; /* Adjust font size for headings */
+    margin-bottom: 15px; /* Adjust margin for headings */
+  }
+
+  .course-details p {
+    font-size: 14px; /* Adjust font size for paragraphs */
+    margin-bottom: 10px; /* Adjust margin for paragraphs */
+  }
+
+  .course-details ul {
+    list-style: none;
+  }
+
+  .course-details li {
+    font-size: 12px; /* Adjust font size for list items */
+    margin-bottom: 5px; /* Adjust margin for list items */
+  }
+}

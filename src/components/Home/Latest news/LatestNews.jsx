@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import PageNotFound from "../../404 error page/404Page";
+import styles from './LatestNews.module.css'
 
 function LatestNews() {
   const { newsName } = useParams();
@@ -10,8 +11,8 @@ function LatestNews() {
 
   if (newsName === "online-noc") {
     newsContent = (
-      <div style={{height: '50vh'}}>
-        <h2 style={{color: 'red'}}>Online NOC and Affiliation System</h2>
+      <div className={styles.newsDiv}>
+        <h2 className={styles.newsHeading}>Online NOC and Affiliation System</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.
@@ -20,8 +21,8 @@ function LatestNews() {
     );
   } else if (newsName === "registrar-notice") {
     newsContent = (
-      <div style={{height: '50vh'}}>
-        <h2 style={{color: 'red'}}>Registrar Notice-International Day of Non-Violence</h2>
+      <div className={styles.newsDiv}>
+        <h2 className={styles.newsHeading}>Registrar Notice-International Day of Non-Violence</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.
@@ -30,8 +31,8 @@ function LatestNews() {
     );
   } else if (newsName === "recruitment-advertisement") {
     newsContent = (
-      <div style={{height: '50vh'}}>
-        <h2 style={{color: 'red'}}>Recruitment Advertisement-Guest Faculty 2023-24</h2>
+      <div clasclassName={styles.newsDiv}>
+        <h2 className={styles.newsHeading}>Recruitment Advertisement-Guest Faculty 2023-24</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
           condimentum accumsan mi, non gravida lorem fringilla non.

@@ -1,0 +1,21 @@
+.newsDiv{
+    height: 30vh;
+}
+.newsHeading{
+    color: red;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .newsDiv {
+      padding: 15px; /* Add some padding for smaller screens */
+    }
+  
+    .newsHeading {
+      font-size: 20px; /* Reduce the font size for smaller screens */
+    }
+    .newsDiv p{
+        font-size: 14px;
+    }
+    /* You can adjust other styles as needed for mobile responsiveness */
+  }

@@ -123,3 +123,36 @@ h2{
 .dialogButton:hover {
   background-color: #0056b3;
 }
+
+/* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .admissionForm {
+    max-width: 85%; /* Adjust the maximum width for smaller screens */
+    margin: 5% auto; /* Center the form vertically */
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .admissionForm label {
+    margin-bottom: 5px; /* Reduce margin for labels */
+  }
+
+  .radioGroup {
+    margin: 10px 0px 10px 55px; /* Reduce margin for radio buttons */
+  }
+  .modalContent{
+    width: 60%;
+    padding: 5px 15px 15px;
+  }
+
+  .modalContent h3 {
+    font-size: 18px;
+  }
+  .message{
+    font-size: 14px;
+  }
+  .studentId{
+    font-size: 20px;
+  }
+}

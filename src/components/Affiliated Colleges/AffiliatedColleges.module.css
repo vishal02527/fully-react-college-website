@@ -2,6 +2,9 @@
     padding: 20px;
     margin: 0% 10% 2%;
   }
+  .collegesContainer h2{
+    color: red;
+  }
   
   .collegeTable {
     width: 100%;
@@ -26,3 +29,28 @@
     background-color: #f2f2f2;
   }
   
+  /* Your existing styles */
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .collegesContainer {
+    margin: 0% 3% 2% 2%; /* Adjust margins for smaller screens */
+  }
+
+  .collegeTable {
+    margin-top: 10px; /* Reduce top margin for smaller screens */
+  }
+
+  .collegeTable th,
+  .collegeTable td {
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+
+  .collegeTable th {
+    font-size: 16px; /* Adjust font size for table headers */
+  }
+
+  /*.collegeTable tbody tr:nth-child(even) {
+    background-color: transparent;  Remove alternating row background for better readability 
+  }*/
+}
