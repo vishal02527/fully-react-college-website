@@ -245,7 +245,7 @@ function BasicDetails() {
   } else if (detail === "admission-process") {
     detailContent = (
       <div className={admitprocess.admissionProcess}>
-        <h2 style={{ color: "red" }}>Admission Process</h2>
+        <h2>Admission Process</h2>
         <div className={admitprocess.stepsContainer}>
           <div className={admitprocess.step}>
             <h3>{steps[currentStep].title}</h3>

@@ -1,48 +1,46 @@
 .aboutContainer {
-    max-width: 800px;
-    margin: 0 auto 20px;
-    padding: 20px;
-  }
-  
-  .aboutContainer h2 {
-    font-size: 24px;
-    color: red;
-    margin-bottom: 10px;
-  }
-  
-  .aboutContainer p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-  }
-  
-  .aboutContainer h3 {
-    font-size: 20px;
-    color: red;
-    margin-top: 20px;
-  }
-  
-  /* Your existing styles */
+  max-width: 800px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.aboutContainer h2 {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.aboutContainer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.aboutContainer h3 {
+  font-size: 20px;
+  color: red;
+  margin-top: 20px;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .aboutContainer {
-    padding: 10px; /* Adjust padding for smaller screens */
+    padding: 10px;
   }
 
   .aboutContainer h2 {
-    font-size: 20px; /* Adjust font size for headings */
-    margin-bottom: 8px; /* Adjust margin for headings */
+    font-size: 20px;
+    margin-bottom: 8px;
   }
 
   .aboutContainer p {
-    font-size: 14px; /* Adjust font size for paragraphs */
-    line-height: 1.4; /* Adjust line height for paragraphs */
+    font-size: 14px;
+    line-height: 1.4;
     margin: 0px 10px;
   }
 
   .aboutContainer h3 {
-    font-size: 18px; /* Adjust font size for subheadings */
-    margin-top: 16px; /* Adjust margin for subheadings */
+    font-size: 18px;
+    margin-top: 16px;
   }
 }

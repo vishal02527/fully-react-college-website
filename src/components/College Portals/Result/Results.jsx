@@ -603,10 +603,10 @@ function Results() {
                   {studentResult.resultDate}
                 </p>
                 <p className={styles.signaturePara}>
-                  <span>Authority Signature: </span>
+                  <span>Authorized Signature: </span>
                   <img
                     src={sign}
-                    alt="Authority Signature"
+                    alt="Authorized Signature"
                     className={styles.signature}
                   />
                 </p>

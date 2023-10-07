@@ -64,7 +64,7 @@
   padding-left: 20px;
   padding-bottom: 20px;
   border: 1px solid #ddd;
-  background-image: url('https://media.istockphoto.com/id/1153319748/photo/magnifying-glass-with-light-bulb-icon-and-question-mark-symbol-concept-creative-idea-and.jpg?s=612x612&w=0&k=20&c=DYfFFOBIfJV7EZyJ6XsGVM9443n9-Y4E0nSvOGDRd9g=');
+  background-image: url("https://media.istockphoto.com/id/1153319748/photo/magnifying-glass-with-light-bulb-icon-and-question-mark-symbol-concept-creative-idea-and.jpg?s=612x612&w=0&k=20&c=DYfFFOBIfJV7EZyJ6XsGVM9443n9-Y4E0nSvOGDRd9g=");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
@@ -72,7 +72,7 @@
 }
 
 .resultForm h2 {
-  color: #198754;
+  color: red;
 }
 
 .resultForm label {
@@ -158,7 +158,7 @@ button:hover {
 }
 
 .studentResult h3 {
-  color: #198754;
+  color: red;
 }
 
 .studentResult p {
@@ -173,24 +173,23 @@ button:hover {
 
 /* Styles for student result */
 
-.resultHeader{
+.resultHeader {
   display: flex;
   justify-content: center;
 }
-.resultHeaderDetail{
+.resultHeaderDetail {
   margin-left: 20px;
 }
-.resultHeaderDetail h3{
+.resultHeaderDetail h3 {
   margin: 0;
   padding: 0;
 }
-.resultHeaderLogo{
+.resultHeaderLogo {
   margin-top: -15px;
   width: 130px;
   height: 120px;
 }
 .studentResult {
-  margin-top: 20px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -203,7 +202,7 @@ button:hover {
   color: #007bff;
   margin-top: 0;
 }
-.resultTable h3{
+.resultTable h3 {
   color: rgb(232, 56, 56);
 }
 
@@ -238,7 +237,6 @@ button:hover {
   background-color: #ddd;
 }
 
-
 /* Style the basic student details */
 .basicDetails {
   margin: 50px 20px 40px;
@@ -253,13 +251,13 @@ button:hover {
   font-size: 14px;
   color: #000;
 }
-.basicDetails img{
+.basicDetails img {
   margin-top: -10px;
   width: 200px;
   height: 160px;
 }
 
-.basicDetails p span{
+.basicDetails p span {
   font-weight: bold;
   color: #000;
   font-size: 16px;
@@ -272,21 +270,21 @@ button:hover {
   border-radius: 5px;
   margin-top: 10px;
 }
-.resultFooter{
+.resultFooter {
   margin: 30px auto 20px;
 }
 
-.resultFooter p{
+.resultFooter p {
   color: #000;
   font-size: 14px;
 }
-.resultFooter .signaturePara{
+.resultFooter .signaturePara {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-left: 10px;
 }
-.resultFooter p span{
+.resultFooter p span {
   color: #000;
   font-weight: 600;
 }
@@ -297,15 +295,15 @@ button:hover {
   margin-top: -10px;
   margin-left: -5px;
 }
-.resultStatus h3{
+.resultStatus h3 {
   color: #000;
 }
-.resultStatus h3 span{
+.resultStatus h3 span {
   color: rgb(6, 180, 35);
 }
 
 /* Styles for the download button */
-.downloadPrintButtonDiv{
+.downloadPrintButtonDiv {
   margin: 10px auto 50px;
 }
 .downloadButton {
@@ -319,13 +317,13 @@ button:hover {
   font-size: 16px;
   margin-left: -10px;
 }
-.printButton{
+.printButton {
   background-color: rgb(250, 66, 66);
   color: #fff;
   padding: 15px 20px;
   margin-left: 15px;
 }
-.printButton:hover{
+.printButton:hover {
   background-color: rgb(247, 36, 36);
 }
 
@@ -349,5 +347,183 @@ button:hover {
   /* Display only the studentResult when printing */
   .studentResult {
     display: block !important;
+  }
+}
+
+/* media query for mobile */
+@media screen and (max-width: 768px) {
+  .resultpage {
+    margin: 20px 10px;
+    justify-content: space-between;
+  }
+
+  .resultsList {
+    width: 50%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .resultForm {
+    width: 50%;
+    padding: 0;
+    margin-left: 10px;
+  }
+
+  .resultsList h2 {
+    width: 89%;
+    border-radius: 0;
+    font-size: 14px;
+  }
+  .resultsList ul {
+    margin: 0;
+  }
+
+  .resultsList li {
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 17px;
+  }
+
+  .resultForm h2 {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .resultForm label {
+    font-size: 12px;
+  }
+
+  .formGroup {
+    margin-bottom: 8px;
+  }
+
+  .resultForm input {
+    height: 5px;
+  }
+
+  .captchadiv {
+    justify-content: space-between;
+    margin: 30px 10px;
+  }
+
+  .captcha {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .regeneratecaptcha {
+    margin-top: -15px;
+  }
+
+  .regeneratecaptchabtn {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .getresultbtn {
+    margin-top: 10px;
+    padding: 8px !important;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  /* media query for result */
+  .studentResult {
+    padding: 10px;
+    margin: 2% 2% 0% 1%;
+    padding-bottom: 5px;
+  }
+  .resultHeader {
+    margin-right: 15px !important;
+  }
+
+  .resultHeaderLogo {
+    width: 70px;
+    height: 70px;
+    margin-top: 0;
+  }
+  .resultHeaderDetail {
+    margin-left: 10px;
+  }
+  .resultHeaderDetail h3 {
+    font-size: 12px;
+  }
+  .basicDetails {
+    margin: 40px 0px 20px;
+  }
+
+  .basicDetails img {
+    width: 80px;
+    height: 95px;
+  }
+
+  .basicDetails p span {
+    font-size: 10px;
+  }
+
+  .basicDetails p {
+    font-size: 8px;
+  }
+
+  .resultTable h3 {
+    font-size: 14px;
+  }
+
+  /* media query for table for subject-wise marks/grades */
+  .subjectTable {
+    margin-top: 10px;
+  }
+
+  .subjectTable th,
+  .subjectTable td {
+    padding: 6px;
+    text-align: center;
+  }
+  .subjectTable td {
+    font-size: 10px;
+    padding: 8px 0px;
+  }
+
+  .subjectTable th {
+    font-size: 12px;
+  }
+
+  .resultStatus {
+    font-size: 16px;
+  }
+
+  .resultFooter {
+    margin: 20px auto 0px;
+  }
+
+  .resultFooter p {
+    font-size: 12px;
+  }
+  .resultFooter p span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .resultFooter div {
+    margin-top: -2px !important;
+  }
+
+  .signaturePara {
+    margin-top: -5px !important;
+  }
+  .signature {
+    max-width: 80px;
+    margin-left: -10px;
+  }
+
+  .downloadPrintButtonDiv {
+    margin: 5px auto 50px;
+  }
+  .downloadButton {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .printButton {
+    padding: 10px 15px;
+    font-size: 14px;
   }
 }

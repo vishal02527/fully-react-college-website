@@ -24,7 +24,7 @@ function LearningPage() {
 
   if (course === "Introduction-to-html") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Introduction to html</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -43,7 +43,7 @@ function LearningPage() {
     );
   } else if (course === "Advanced-Java") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Advanced Java</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -62,7 +62,7 @@ function LearningPage() {
     );
   } else if (course === "Programming-in-C") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Programming in C</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -81,7 +81,7 @@ function LearningPage() {
     );
   } else if (course === "Marketing-Management") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Marketing Management</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -100,7 +100,7 @@ function LearningPage() {
     );
   } else if (course === "Numerical-Analysis") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Numerical Analysis</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -119,7 +119,7 @@ function LearningPage() {
     );
   } else if (course === "Organic-Chemistry") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Organic Chemistry</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -138,7 +138,7 @@ function LearningPage() {
     );
   } else if (course === "Business-Communication") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Business Communication</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -157,7 +157,7 @@ function LearningPage() {
     );
   } else if (course === "Multimedia-Technologies") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Multimedia Technologies</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -176,7 +176,7 @@ function LearningPage() {
     );
   } else if (course === "Electrodynamics") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Electrodynamics</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -195,7 +195,7 @@ function LearningPage() {
     );
   } else if (course === "Construction-Materials-and-Technology") {
     learningContent = (
-      <div>
+      <div className={styles.LearningPageDiv}>
         <h2>Construction Materials and Technology</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla

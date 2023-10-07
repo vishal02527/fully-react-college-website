@@ -20,7 +20,7 @@ function Login({ onLogin }) {
 
   return (
     <>
-      <h2>Login</h2>
+      <h2 style={{color: 'red'}}>Login</h2>
       <div className={styles.loginContainer}>
         <form onSubmit={handleLogin} className={styles.logform}>
           <div className={styles.formGroup}>

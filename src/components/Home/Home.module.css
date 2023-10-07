@@ -139,7 +139,7 @@ a span {
   }
 
   .marqueediv {
-    margin: 25px 1% 0px; 
+    margin: 25px 1% 0px;
     height: 30px;
   }
 
@@ -155,7 +155,7 @@ a span {
 
   a span {
     margin-right: 8px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     font-size: 12px;
   }
 
@@ -167,8 +167,8 @@ a span {
 
   .portalbtn {
     max-width: 100%;
-    padding: 15px; 
-    margin: 8px; 
+    padding: 15px;
+    margin: 8px;
   }
 
   .portals {
@@ -183,25 +183,26 @@ a span {
   }
 
   .importantPersonSection {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
-    align-items: center; /* Center-align items on smaller screens */
+    flex-direction: column;
+    align-items: center;
   }
 
   .governorDiv,
   .viceChancellorDiv,
   .creatorDiv {
-    width: 70%; /* Make elements full-width on smaller screens */
-    margin: 10px 0; /* Add vertical spacing between elements */
+    width: 70%;
+    margin: 10px 0;
   }
 
   .ProfileBtn {
-    max-width: 100%; /* Make buttons full-width on smaller screens */
+    max-width: 100%;
   }
 
-  .cards{
+  .cards {
     margin-top: 30px;
   }
-  .cardContainer{
+  .cardContainer {
     margin-top: 20px;
+    margin-bottom: 40px;
   }
 }

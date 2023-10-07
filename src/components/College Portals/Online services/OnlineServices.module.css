@@ -1,38 +1,33 @@
-.onlineServicesContainer {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.onlineServices {
+  padding: 10px;
 }
 
-.onlineServicesContainer h2 {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
+.onlineServices h2 {
+  margin-bottom: 15px;
 }
 
-.onlineServicesContainer p {
+.onlineServices p {
   font-size: 16px;
   line-height: 1.5;
-  color: #666;
 }
 
-.iconLink p{
+.iconLink p {
   color: red;
   margin-right: 22px;
 }
 
-.icondiv{
+.icondiv {
   width: 130px;
   height: 100px;
   background-color: rgb(209, 80, 209);
   border-radius: 10px;
   position: relative;
 }
-.icondiv:hover{
+.icondiv:hover {
   background-color: rgb(193, 44, 193);
 }
 .iconLink i {
-  font-size: 50px;/* Add space between the icon and text */
+  font-size: 50px; /* Add space between the icon and text */
   position: absolute;
   top: 27px;
   left: 38px;
@@ -71,7 +66,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
- h2{
+.examformDetails {
+  padding: 10px 20px;
+}
+.examformDetails h2 {
   color: red;
 }
 .examinationForm label {
@@ -81,7 +79,7 @@
   margin-bottom: 10px;
 }
 
-.examinationForm label span{
+.examinationForm label span {
   color: red;
 }
 
@@ -93,7 +91,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.examinationForm select{
+.examinationForm select {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -120,6 +118,13 @@
 
 /* Style for the Fee payment component */
 
+.FeesPaymentDetails {
+  padding: 10px 20px;
+}
+.FeesPaymentDetails h2 {
+  color: red;
+}
+
 .feeService {
   width: 400px;
   margin: 2% auto;
@@ -127,7 +132,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #dedede;
   text-align: center;
 }
 
@@ -160,14 +165,14 @@ p {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.paymentForm select{
+.paymentForm select {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.feesubmitbtn{
+.feesubmitbtn {
   margin-top: 25px;
 }
 button[type="submit"] {
@@ -189,13 +194,13 @@ h2 {
   position: relative;
 }
 
-.logout{
+.logout {
   position: absolute;
   top: 28%;
   left: 85%;
   font-size: 20px;
 }
-.logout:hover{
+.logout:hover {
   color: red;
 }
 
@@ -209,11 +214,11 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.librarySections h3{
+.librarySections h3 {
   margin-top: -10px;
 }
 
-/* Form container styles */
+/* Add book form container styles */
 .addBookForm {
   margin-top: 20px;
   padding: 20px;
@@ -235,7 +240,8 @@ h2 {
   color: #333;
 }
 
-.bookinput, .bookinputdate {
+.bookinput,
+.bookinputdate {
   width: 91%;
   margin: 0px 20px;
   padding: 10px;
@@ -247,7 +253,7 @@ h2 {
 
 /* Add button styles */
 .addButton {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -299,4 +305,152 @@ h2 {
 /* Required field indicator */
 .required {
   color: red;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 600px) {
+  .onlineServices {
+    padding: 8px 15px;
+  }
+
+  .onlineServices p {
+    font-size: 12px;
+  }
+
+  .iconLink p {
+    font-weight: 500;
+    margin-right: 5px;
+  }
+
+  .icondiv {
+    width: 90px;
+    height: 70px;
+  }
+
+  .iconLink i {
+    font-size: 40px;
+    top: 15px;
+    left: 25px;
+  }
+
+  .servicesList div {
+    margin: 0px 8px 0px 0px;
+  }
+
+  /* media query for examination form*/
+
+  .examinationForm {
+    padding: 20px 30px;
+    width: 80%;
+  }
+
+  .examinationForm label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .examinationForm input[type="text"] {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .examinationForm select {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .examformDetails p {
+    font-size: 12px;
+  }
+  .examformbtn {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  /* media query for fee payment component*/
+
+  .feeService {
+    width: 320px;
+    margin: 0% auto 10%;
+    padding: 20px;
+  }
+  .FeesPaymentDetails p {
+    font-size: 12px;
+  }
+
+  .paymentForm label {
+    font-size: 14px;
+  }
+
+  .paymentForm input[type="text"] {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .paymentForm select {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .feesubmitbtn {
+    margin-top: 25px;
+  }
+  button[type="submit"] {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  /* media query for library content*/
+
+  .logout {
+    top: 37.7%;
+    left: 80%;
+    font-size: 14px;
+  }
+  .libraryDetails p {
+    font-size: 12px;
+  }
+
+  .librarySections {
+    margin: 10px auto;
+    padding: 20px 10px;
+    max-width: 90%;
+  }
+
+  .addBookForm {
+    padding: 20px 10px 4px;
+  }
+
+  .booklabel {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .bookinput,
+  .bookinputdate {
+    width: 90%;
+    height: 13px;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .addButton {
+    padding: 8px 14px;
+    margin-left: 120px;
+  }
+
+  .bookTable {
+    width: 80%;
+    margin: 8% 2% 10% 5%;
+  }
+
+  .bookTable th,
+  .bookTable td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .deleteButton {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
 }

@@ -25,7 +25,7 @@ import Login from "./components/College Portals/Online services/Login";
 import NEPSyllabus from "./components/College Portals/NEP syllabus/NEP-Syllabus";
 import ELearning from "./components/College Portals/E-learning/E-Learning";
 import LearningPage from "./components/College Portals/E-learning/LearningPage";
-import BasicDetails from "./components/Home/Home Cards/BasicDetails";
+import BasicDetails from "./components/Home/Academic activities/BasicDetails";
 import AcademicActivities from "./components/Home/Academic activities/Academicactivities";
 import Footer from "./components/Footer/Footer";
 import PageNotFound from "./components/404 error page/404Page";

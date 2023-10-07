@@ -1,64 +1,62 @@
 .course-details-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 2% auto;
-  }
-  
-  .course-details {
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-  }
-  
-  .course-details h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .course-details p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  .course-details ul {
-    list-style: none;
-    margin-right: 40px;
-  }
-  
-  .course-details li {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 5px;
-  }
-  
-  /* Your existing styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 2% auto;
+}
+
+.course-details {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.course-details h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.course-details p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.course-details ul {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.course-details li {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .course-details-container {
-    padding: 10px; /* Adjust padding for smaller screens */
-    margin: 5% auto; /* Center the content vertically */
+    padding: 10px;
+    margin: 5% auto;
   }
 
   .course-details {
-    max-width: 90%; /* Adjust the maximum width for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
+    max-width: 90%;
+    padding: 10px;
   }
 
   .course-details h2 {
-    font-size: 18px; /* Adjust font size for headings */
-    margin-bottom: 15px; /* Adjust margin for headings */
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 
   .course-details p {
-    font-size: 14px; /* Adjust font size for paragraphs */
-    margin-bottom: 10px; /* Adjust margin for paragraphs */
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 
   .course-details ul {
@@ -66,7 +64,7 @@
   }
 
   .course-details li {
-    font-size: 12px; /* Adjust font size for list items */
-    margin-bottom: 5px; /* Adjust margin for list items */
+    font-size: 12px;
+    margin-bottom: 5px;
   }
 }

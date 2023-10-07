@@ -28,8 +28,10 @@ export function ExaminationForm() {
 
   return (
     <>
-      <h2>Examination Form</h2>
-      <p>Fill out the form below to register for the examination.</p>
+      <div className={styles.examformDetails}>
+        <h2>Examination Form</h2>
+        <p>Fill out the form below to register for the examination.</p>
+      </div>
       <div className={styles.examinationForm}>
         <form ref={formRef} onSubmit={handleFormSubmit}>
           <div className={styles.formGroup}>
@@ -139,11 +141,13 @@ export function FeesPayment() {
 
   return (
     <>
-      <h2>Fees Payment</h2>
-      <p>
-        Use our Fees Payment service to pay your tuition and other fees online
-        securely.
-      </p>
+      <div className={styles.FeesPaymentDetails}>
+        <h2>Fees Payment</h2>
+        <p>
+          Use our Fees Payment service to pay your tuition and other fees online
+          securely.
+        </p>
+      </div>
       <div className={styles.feeService}>
         <div className={styles.paymentForm}>
           <form ref={formRef} onSubmit={handlePayment}>
@@ -241,8 +245,10 @@ export function LibraryContent({ onLogout }) {
 
   return (
     <>
-      <h2 style={{ color: "red" }}>Library Content</h2>
-      <p>Welcome to the library! You can access books, resources, and more.</p>
+      <div className={styles.libraryDetails}>
+        <h2 style={{ color: "red" }}>Library Content</h2>
+        <p>Welcome to the library! You can access books, resources, and more.</p>
+      </div>
       <Link
         to="/online-services/library-access"
         onClick={onLogout}

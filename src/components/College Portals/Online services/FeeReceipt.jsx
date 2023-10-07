@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import sign from "../../images/signature-png.png";
 import logo from "../../images/logo.png";
+import styles from './FeeReceipt.module.css'
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -84,112 +85,74 @@ function FeeReceipt({ studentId, amount, paymentMethod }) {
     <>
       <div
         id="FeeReceiptSection"
-        style={{
-          margin: "0 auto 1%",
-          backgroundColor: "rgb(247, 247, 138)",
-          width: "400px",
-          padding: "8px 0px 2px 0px",
-        }}
+        className={styles.FeeReceiptContainer}
       >
         <div>
           <img
             src={logo}
-            width={50}
-            height={50}
-            style={{ marginBottom: "-8px" }}
+            className={styles.FeeReceiptLogo}
           />
           <h2
-            style={{
-              color: "#0084ff",
-              fontSize: "22px",
-              marginBottom: "0",
-              marginTop: "0",
-            }}
+            className={styles.FeeReceiptUniName}
           >
             Vishal Digital University, Aligarh
           </h2>
-          <h2 style={{ fontSize: "20px" }}>Fee Receipt</h2>
-          <div style={{ margin: "0" }}>
+          <h2 className={styles.FeeReceiptHeading}>Fee Receipt</h2>
+          <div className={styles.paymentDetails}>
             <p
-              style={{
-                margin: "0 0 10px 0",
-                textDecoration: "underline",
-                color: "#000",
-                fontSize: "17px",
-              }}
+            className={styles.paymentDetailsHeading}
             >
               Payment Details:
             </p>
-            <p style={{ margin: "2px", color: "#000" }}>
+            <p className={styles.para}>
               Student ID:{" "}
-              <span style={{ color: "#000", fontWeight: "500" }}>
+              <span>
                 {studentId}
               </span>
             </p>
-            <p style={{ margin: "2px", color: "#000" }}>
+            <p className={styles.para}>
               Payment Amount:{" "}
-              <span style={{ color: "#000", fontWeight: "500" }}>{amount}</span>
+              <span>{amount}</span>
             </p>
-            <p style={{ margin: "2px", color: "#000" }}>
+            <p className={styles.para}>
               Payment Method:{" "}
-              <span style={{ color: "#000", fontWeight: "500" }}>
+              <span>
                 {paymentMethod}
               </span>
             </p>
-            <p style={{ margin: "5px", color: "#000" }}>
+            <p className={styles.paymentStatus}>
               Payment status:{" "}
               <span
-                style={{ color: "green", fontSize: "18px", fontWeight: "600" }}
               >
                 PAID
               </span>
             </p>
             <div
-              style={{ display: "flex", marginLeft: "20px", marginTop: "10px" }}
+            className={styles.FeeReceiptFooter}
             >
-              <p style={{ color: "#000" }}>
+              <p className={styles.date}>
                 Date: {currentDate}/{currentMonth + 1}/{currentYear}
               </p>
               <p
-                style={{
-                  margin: "-15px 0px 0px 34%",
-                  color: "#000",
-                  display: "flex",
-                  alignItems: "center",
-                }}
+              className={styles.signatureParagraph}
               >
-                Signature: <img src={sign} width={60} height={30} />
+                Signature: <img src={sign} />
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div style={{ marginBottom: "3%" }}>
+      <div className={styles.downloadPrintDiv}>
         {/* ... Download fee receipt as pdf ... */}
         <button
           onClick={handleDownloadFeeReceipt}
-          style={{
-            padding: "12px 15px",
-            color: "#fff",
-            backgroundColor: "#009688",
-            border: "none",
-            borderRadius: "5px",
-            fontSize: "15px",
-          }}
+          className={styles.downloadBtn}
         >
           Download Fee Receipt (PDF)
         </button>
         <button
           onClick={handlePrintFeeReceipt}
-          style={{
-            padding: "12px 15px",
-            color: "#fff",
-            backgroundColor: "rgb(250, 66, 66)",
-            border: "none",
-            borderRadius: "5px",
-            fontSize: "15px",
-            marginLeft: "25px",
-          }}
+          className={styles.printBtn}
         >
           Print Fee Receipt
         </button>

@@ -1,97 +1,94 @@
 .footer {
-    background-color: #12343b;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-  }
-  footer p{
-    color: #fff;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .column {
-    flex: 1;
-    padding: 0 20px;
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #fff;
-  }
-  
-  .contactInfo {
-    margin: 10px 0;
-  }
-  
-  .linkList {
-    list-style: none;
-    padding: 0;
-    
-  }
-  
-  .linkList li {
-    margin: 10px 0;
-  }
-  
-  .link {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    text-decoration: underline;
-  }
-  
-  .socialLinks {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .socialIcon {
-    font-size: 24px;
-    margin: 0 10px;
-    color: #fff;
-  }
+  background-color: #12343b;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+}
 
-  .creator{
-    margin: 10px 0px -15px;
-    font-size: 18px;
-  }
-  
-  /* Your existing styles */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contactInfo {
+  margin: 10px 0;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+}
+
+.linkList li {
+  margin: 10px 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.socialIcon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.creator {
+  margin: 10px 0px -15px;
+  font-size: 18px;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .footer {
-    padding: 20px 0 30px; /* Adjust padding for spacing */
+    padding: 20px 0 30px;
   }
 
   .container {
-    flex-direction: column; /* Stack columns vertically on smaller screens */
+    flex-direction: column;
   }
 
   .column {
-    padding: 0; /* Remove column padding */
-    text-align: center; /* Center-align column content */
+    padding: 0;
+    text-align: center;
   }
 
   .title {
-    font-size: 18px; /* Reduce font size for smaller screens */
-    margin-bottom: 10px; /* Adjust margin for spacing */
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .contactInfo {
-    margin: 5px 0; /* Adjust margin for spacing */
+    margin: 5px 0;
   }
 
   .linkList {
-    text-align: center; /* Center-align link list */
+    text-align: center;
   }
 
   .linkList li {
@@ -99,11 +96,11 @@
   }
 
   .link {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px;
   }
 
   .socialLinks {
-    margin-top: 10px; /* Adjust margin for spacing */
+    margin-top: 10px;
   }
 
   .socialIcon {
@@ -113,6 +110,6 @@
 
   .creator {
     margin-top: 20px;
-    font-size: 14px; /* Reduce font size for smaller screens */
+    font-size: 14px;
   }
 }

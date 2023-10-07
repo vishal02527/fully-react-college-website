@@ -1,56 +1,49 @@
 .collegesContainer {
-    padding: 20px;
-    margin: 0% 10% 2%;
-  }
-  .collegesContainer h2{
-    color: red;
-  }
-  
-  .collegeTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
+  padding: 20px;
+  margin: 0% 10% 2%;
+}
+.collegesContainer h2 {
+  color: red;
+}
 
-  
-  .collegeTable th,
-  .collegeTable td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  .collegeTable th {
-    background-color: red;
-    color: #fff;
-  }
-  
-  .collegeTable tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  /* Your existing styles */
+.collegeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.collegeTable th,
+.collegeTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.collegeTable th {
+  background-color: red;
+  color: #fff;
+}
+
+.collegeTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .collegesContainer {
-    margin: 0% 3% 2% 2%; /* Adjust margins for smaller screens */
+    margin: 0% 3% 2% 2%;
   }
 
   .collegeTable {
-    margin-top: 10px; /* Reduce top margin for smaller screens */
+    margin-top: 10px;
   }
 
   .collegeTable th,
   .collegeTable td {
-    padding: 8px; /* Adjust padding for smaller screens */
+    padding: 8px;
   }
 
   .collegeTable th {
-    font-size: 16px; /* Adjust font size for table headers */
+    font-size: 16px;
   }
-
-  /*.collegeTable tbody tr:nth-child(even) {
-    background-color: transparent;  Remove alternating row background for better readability 
-  }*/
 }

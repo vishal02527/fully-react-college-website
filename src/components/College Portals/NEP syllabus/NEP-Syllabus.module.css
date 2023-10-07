@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-p {
+.nepSyllabus p {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
@@ -27,14 +27,14 @@ p {
   line-height: 25px;
 }
 
-h3 {
+.syllabusContent h3 {
   font-size: 20px;
   color: #333;
   margin-bottom: 10px;
   text-align: center;
 }
 
-pre {
+.syllabusContent pre {
   font-size: 14px;
   color: #333;
   white-space: pre-wrap;
@@ -59,4 +59,34 @@ pre {
 .coursesList a:hover {
   color: #004c9c;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .nepSyllabus {
+    padding: 20px 22px;
+  }
+  .nepSyllabus h2 {
+    font-size: 20px;
+  }
+  .nepSyllabus p {
+    font-size: 14px;
+  }
+  .coursesList li {
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+  .syllabusContent {
+    padding: 5px 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .syllabusContent h3 {
+    font-size: 18px;
+  }
+
+  .syllabusContent pre {
+    font-size: 10px;
+    white-space: pre-wrap;
+  }
 }

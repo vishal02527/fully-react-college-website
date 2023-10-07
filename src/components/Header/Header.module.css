@@ -1,77 +1,73 @@
 header {
-    background-color: #3997ef;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-  .headercontent{
-    display: flex;
-    flex-direction: column;
-    margin-left: 240px;
-  }
-  .logo{
-    cursor: pointer;
-    margin-left: 20px;
-  }
-  .uniName{
-    font-size: 38px;
-    text-shadow: 2px 3px 5px #393939;
-    letter-spacing: 0.8px;
-  }
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline;
-    margin: 0 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 18px;
-  }
-  
-  nav a:hover {
-    color: #105290;
-    transition: linear 0.5s;
-  }
-  nav a.active {
-    border-bottom: 2px solid #105290;
-    color: #105290;
-  }
-  
-  /* Define a class to hide the header when printing */
+  background-color: #3997ef;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.headercontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 240px;
+}
+.logo {
+  cursor: pointer;
+  margin-left: 20px;
+}
+.uniName {
+  font-size: 38px;
+  text-shadow: 2px 3px 5px #393939;
+  letter-spacing: 0.8px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #105290;
+  transition: linear 0.5s;
+}
+nav a.active {
+  border-bottom: 2px solid #105290;
+  color: #105290;
+}
+
+/* Define a class to hide the header when printing */
 @media print {
-   .header {
+  .header {
     display: none;
   }
 }
 
-/* Header.module.css */
-
-/* ... (your existing styles) ... */
-
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; /* Stack content vertically on mobile */
-    text-align: center; /* Center-align content on mobile */
+    flex-direction: column;
+    text-align: center;
   }
 
   .headercontent {
-    margin-left: 0; /* Remove left margin on mobile */
+    margin-left: 0;
   }
 
   nav ul {
-    flex-direction: column; /* Stack navigation items vertically on mobile */
+    flex-direction: column;
   }
 
   nav li {
-    margin: 10px; /* Add vertical margin for better spacing on mobile */
+    margin: 10px;
   }
   .logo img {
     width: 100px;
@@ -79,11 +75,11 @@ header {
     margin-right: 15px;
   }
   .uniName {
-    font-size: 24px; /* Reduce font size for better mobile readability */
-    margin-bottom: 10px; /* Add margin for better spacing on mobile */
+    font-size: 24px;
+    margin-bottom: 10px;
   }
-  
+
   nav a {
-    font-size: 16px; /* Reduce font size for better mobile readability */
+    font-size: 16px;
   }
 }

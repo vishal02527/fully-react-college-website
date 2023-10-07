@@ -33,7 +33,7 @@ function Home() {
 
   return (
     <div className={styles.home}>
-      {/* Carousel */}
+      {/* section for Carousel */}
       <section className={styles.carousel}>
         <div className={styles.carouselContainer}>
           <Slider {...carouselSettings}>
@@ -85,7 +85,7 @@ function Home() {
           </Slider>
         </div>
       </section>
-      {/* latest news marquee */}
+      {/* section for latest news marquee */}
       <section className={styles.marqueediv}>
         <div className={styles.latestnews}>Latest news</div>
         <marquee
@@ -107,12 +107,12 @@ function Home() {
           </Link>
         </marquee>
       </section>
-      {/* notice boards */}
+      {/* section for notice boards */}
       <section className={styles.collegenotices}>
         <NoticeBoard />
         <AdmissionNoticeBoard />
       </section>
-      {/* College Portals */}
+      {/* section for College Portals */}
       <section className={styles.portals}>
         <h2>College Portals</h2>
         <div className={styles.portalLinks}>
@@ -133,7 +133,7 @@ function Home() {
           </Link>
         </div>
       </section>
-      {/* Important person of the university */}
+      {/* section for Important person of the university */}
       <section className={styles.importantPersonSection}>
         <div className={styles.governorDiv}>
           <img
@@ -216,7 +216,7 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* College Feature Cards */}
+      {/* section for College Feature Cards */}
       <section className={styles.cards}>
         <h2>Explore Our Features</h2>
         <div className={styles.cardContainer}>
