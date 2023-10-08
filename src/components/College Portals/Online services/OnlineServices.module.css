@@ -341,7 +341,7 @@ h2 {
 
   .examinationForm {
     padding: 20px 30px;
-    width: 80%;
+    width: 75%;
   }
 
   .examinationForm label {
@@ -369,8 +369,13 @@ h2 {
 
   /* media query for fee payment component*/
 
+  .feePage,
+  .examformPage {
+    height: 70vh;
+  }
+
   .feeService {
-    width: 320px;
+    width: 300px;
     margin: 0% auto 10%;
     padding: 20px;
   }
@@ -400,18 +405,21 @@ h2 {
   }
 
   /* media query for library content*/
+  .libraryPage {
+    padding: 10px;
+  }
 
   .logout {
-    top: 37.7%;
-    left: 80%;
-    font-size: 14px;
+    top: 49%;
+    left: 45%;
+    font-size: 16px;
   }
   .libraryDetails p {
     font-size: 12px;
   }
 
   .librarySections {
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 20px 10px;
     max-width: 90%;
   }
@@ -439,8 +447,8 @@ h2 {
   }
 
   .bookTable {
-    width: 80%;
-    margin: 8% 2% 10% 5%;
+    width: 90%;
+    margin: 8% 2% 20% 5%;
   }
 
   .bookTable th,

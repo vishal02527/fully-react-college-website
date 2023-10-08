@@ -128,7 +128,7 @@ h2 {
 @media (max-width: 768px) {
   .admissionForm {
     max-width: 85%;
-    margin: 5% auto;
+    margin: 5% auto 15%;
     padding: 20px 10px;
   }
 
@@ -140,7 +140,7 @@ h2 {
     margin: 10px 0px 10px 55px;
   }
   .checkboxlavel {
-    top: 1px;
+    top: 1.8px;
   }
   .modalContent {
     width: 60%;

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import sign from "../../images/signature-png.png";
 import logo from "../../images/logo.png";
-import styles from './FeeReceipt.module.css'
+import styles from "./FeeReceipt.module.css";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -85,57 +85,33 @@ function FeeReceipt({ studentId, amount, paymentMethod }) {
     <>
       <div
         id="FeeReceiptSection"
-        className={styles.FeeReceiptContainer}
+        className={`${styles.FeeReceiptContainer} printOnly`}
       >
         <div>
-          <img
-            src={logo}
-            className={styles.FeeReceiptLogo}
-          />
-          <h2
-            className={styles.FeeReceiptUniName}
-          >
+          <img src={logo} className={styles.FeeReceiptLogo} />
+          <h2 className={styles.FeeReceiptUniName}>
             Vishal Digital University, Aligarh
           </h2>
           <h2 className={styles.FeeReceiptHeading}>Fee Receipt</h2>
           <div className={styles.paymentDetails}>
-            <p
-            className={styles.paymentDetailsHeading}
-            >
-              Payment Details:
+            <p className={styles.paymentDetailsHeading}>Payment Details:</p>
+            <p className={styles.para}>
+              Student ID: <span>{studentId}</span>
             </p>
             <p className={styles.para}>
-              Student ID:{" "}
-              <span>
-                {studentId}
-              </span>
+              Payment Amount: <span>{amount}</span>
             </p>
             <p className={styles.para}>
-              Payment Amount:{" "}
-              <span>{amount}</span>
-            </p>
-            <p className={styles.para}>
-              Payment Method:{" "}
-              <span>
-                {paymentMethod}
-              </span>
+              Payment Method: <span>{paymentMethod}</span>
             </p>
             <p className={styles.paymentStatus}>
-              Payment status:{" "}
-              <span
-              >
-                PAID
-              </span>
+              Payment status: <span>PAID</span>
             </p>
-            <div
-            className={styles.FeeReceiptFooter}
-            >
+            <div className={styles.FeeReceiptFooter}>
               <p className={styles.date}>
                 Date: {currentDate}/{currentMonth + 1}/{currentYear}
               </p>
-              <p
-              className={styles.signatureParagraph}
-              >
+              <p className={styles.signatureParagraph}>
                 Signature: <img src={sign} />
               </p>
             </div>
@@ -150,10 +126,7 @@ function FeeReceipt({ studentId, amount, paymentMethod }) {
         >
           Download Fee Receipt (PDF)
         </button>
-        <button
-          onClick={handlePrintFeeReceipt}
-          className={styles.printBtn}
-        >
+        <button onClick={handlePrintFeeReceipt} className={styles.printBtn}>
           Print Fee Receipt
         </button>
       </div>

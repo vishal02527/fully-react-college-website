@@ -95,7 +95,7 @@
 
 @media screen and (max-width: 600px) {
   .FeeReceiptContainer {
-    width: 350px;
+    width: 300px;
   }
   .FeeReceiptLogo {
     width: 35px;
@@ -125,13 +125,13 @@
     font-size: 15px;
   }
   .FeeReceiptFooter {
-    margin-left: 19px;
+    margin-left: 14px;
   }
   .date {
     font-size: 15px;
   }
   .signatureParagraph {
-    margin: -15px 0px 0px 28%;
+    margin: -15px 0px 0px 17%;
     font-size: 15px;
   }
   .FeeReceiptFooter img {
@@ -141,12 +141,12 @@
     margin: 5% 2% 8%;
   }
   .downloadBtn {
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 12px;
   }
   .printBtn {
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 10px;
+    font-size: 12px;
     margin-left: 10px;
   }
 }

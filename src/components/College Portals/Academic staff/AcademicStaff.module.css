@@ -74,15 +74,13 @@
   }
 
   .professorsList li {
-    width: 44%;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 60px 20px;
-    max-height: 200px;
+    width: 85%;
     padding: 5px 8px 10px;
   }
+
   .professorsList li p {
     margin: 2px 8px;
+    font-size: 14px;
   }
 
   .professorsList img {

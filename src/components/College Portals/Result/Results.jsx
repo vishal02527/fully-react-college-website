@@ -125,8 +125,12 @@ function Results() {
   const handlePrintResult = () => {
     // Hide the header when printing
     const header = document.querySelector(".header");
+    const footer = document.querySelector(".footer");
     if (header) {
       header.classList.add(styles.header);
+    }
+    if (footer) {
+      footer.classList.add(styles.footer);
     }
 
     // Add the "printOnly" class to elements you want to print
@@ -143,6 +147,9 @@ function Results() {
     });
     if (header) {
       header.classList.remove(styles.header);
+    }
+    if (footer) {
+      footer.classList.remove(styles.footer);
     }
   };
 
@@ -597,7 +604,7 @@ function Results() {
                 entries in the mark sheet and in the University record, the
                 University record shall be final.
               </p>
-              <div style={{ marginTop: "30px" }}>
+              <div style={{ marginTop: "20px" }}>
                 <p>
                   <span>Result Declared on: </span>
                   {studentResult.resultDate}

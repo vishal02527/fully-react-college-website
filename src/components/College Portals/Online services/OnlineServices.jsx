@@ -28,70 +28,72 @@ export function ExaminationForm() {
 
   return (
     <>
-      <div className={styles.examformDetails}>
-        <h2>Examination Form</h2>
-        <p>Fill out the form below to register for the examination.</p>
-      </div>
-      <div className={styles.examinationForm}>
-        <form ref={formRef} onSubmit={handleFormSubmit}>
-          <div className={styles.formGroup}>
-            <label htmlFor="enrollNumber">
-              Enrollment Number<span>*</span>
-            </label>
-            <input type="text" id="enrollNumber" name="enrollNumber" required />
-          </div>
-          <div className={styles.formGroup}>
-            <label htmlFor="courseName">
-              Course Name<span>*</span>
-            </label>
-            <select id="courseName" name="courseName" required>
-              <option value="">Select Course</option>
-              <option value="BCA">BCA</option>
-              <option value="BBA">BBA</option>
-              <option value="BE">BE</option>
-              <option value="BTECH">BTECH</option>
-              <option value="BCOM">BCOM</option>
-              <option value="BSC(CS)">BSC(CS)</option>
-              <option value="BSC(PCM)">BSC(PCM)</option>
-              <option value="MSC(CS)">MSC(CS)</option>
-              <option value="MSC(Math)">MSC(Math)</option>
-              <option value="MSC(Chemistry)">MSC(Chemistry)</option>
-              <option value="MSC(Physics)">MSC(Physics)</option>
-              <option value="MCA">MCA</option>
-              <option value="MCOM">MCOM</option>
-            </select>
-          </div>
-          <div className={styles.formGroup}>
-            <label htmlFor="semester">
-              Semester<span>*</span>
-            </label>
-            <select id="semester" name="semester" required>
-              <option value="">Select Semester</option>
-              <option value="1">Semester 1</option>
-              <option value="2">Semester 2</option>
-              <option value="3">Semester 3</option>
-              <option value="4">Semester 4</option>
-              <option value="5">Semester 5</option>
-              <option value="6">Semester 6</option>
-              <option value="7">Semester 7</option>
-              <option value="8">Semester 8</option>
-            </select>
-          </div>
-          <div className={styles.formGroup}>
-            <label htmlFor="examMode">
-              Exam mode<span>*</span>
-            </label>
-            <select id="examMode" name="examMode" required>
-              <option value="Select Exam Mode">Select Exam Mode</option>
-              <option value="Ex">Ex</option>
-              <option value="Regular" selected>Regular</option>
-              <option value="Private">Private</option>
-            </select>
-          </div>
-          <div className={styles.formGroup}>
-            <button className={styles.examformbtn}>Submit Form</button>
-          </div>
-        </form>
+      <div className={styles.examformPage}>
+        <div className={styles.examformDetails}>
+          <h2>Examination Form</h2>
+          <p>Fill out the form below to register for the examination.</p>
+        </div>
+        <div className={styles.examinationForm}>
+          <form ref={formRef} onSubmit={handleFormSubmit}>
+            <div className={styles.formGroup}>
+              <label htmlFor="enrollNumber">
+                Enrollment Number<span>*</span>
+              </label>
+              <input type="text" id="enrollNumber" name="enrollNumber" required />
+            </div>
+            <div className={styles.formGroup}>
+              <label htmlFor="courseName">
+                Course Name<span>*</span>
+              </label>
+              <select id="courseName" name="courseName" required>
+                <option value="">Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="BE">BE</option>
+                <option value="BTECH">BTECH</option>
+                <option value="BCOM">BCOM</option>
+                <option value="BSC(CS)">BSC(CS)</option>
+                <option value="BSC(PCM)">BSC(PCM)</option>
+                <option value="MSC(CS)">MSC(CS)</option>
+                <option value="MSC(Math)">MSC(Math)</option>
+                <option value="MSC(Chemistry)">MSC(Chemistry)</option>
+                <option value="MSC(Physics)">MSC(Physics)</option>
+                <option value="MCA">MCA</option>
+                <option value="MCOM">MCOM</option>
+              </select>
+            </div>
+            <div className={styles.formGroup}>
+              <label htmlFor="semester">
+                Semester<span>*</span>
+              </label>
+              <select id="semester" name="semester" required>
+                <option value="">Select Semester</option>
+                <option value="1">Semester 1</option>
+                <option value="2">Semester 2</option>
+                <option value="3">Semester 3</option>
+                <option value="4">Semester 4</option>
+                <option value="5">Semester 5</option>
+                <option value="6">Semester 6</option>
+                <option value="7">Semester 7</option>
+                <option value="8">Semester 8</option>
+              </select>
+            </div>
+            <div className={styles.formGroup}>
+              <label htmlFor="examMode">
+                Exam mode<span>*</span>
+              </label>
+              <select id="examMode" name="examMode" required>
+                <option value="Select Exam Mode">Select Exam Mode</option>
+                <option value="Ex">Ex</option>
+                <option value="Regular" selected>Regular</option>
+                <option value="Private">Private</option>
+              </select>
+            </div>
+            <div className={styles.formGroup}>
+              <button className={styles.examformbtn}>Submit Form</button>
+            </div>
+          </form>
+        </div>
       </div>
     </>
   );
@@ -141,46 +143,47 @@ export function FeesPayment() {
 
   return (
     <>
-      <div className={styles.FeesPaymentDetails}>
-        <h2>Fees Payment</h2>
-        <p>
-          Use our Fees Payment service to pay your tuition and other fees online
-          securely.
-        </p>
-      </div>
-      <div className={styles.feeService}>
-        <div className={styles.paymentForm}>
-          <form ref={formRef} onSubmit={handlePayment}>
-            <div className={styles.formGroup}>
-              <label htmlFor="studentId">Student ID</label>
-              <input type="text" id="studentId" name="studentId" required />
-            </div>
+      <div className={styles.feePage}>
+        <div className={styles.FeesPaymentDetails}>
+          <h2>Fees Payment</h2>
+          <p>
+            Use our Fees Payment service to pay your tuition and other fees online
+            securely.
+          </p>
+        </div>
+        <div className={styles.feeService}>
+          <div className={styles.paymentForm}>
+            <form ref={formRef} onSubmit={handlePayment}>
+              <div className={styles.formGroup}>
+                <label htmlFor="studentId">Student ID</label>
+                <input type="text" id="studentId" name="studentId" required />
+              </div>
 
-            <div className={styles.formGroup}>
-              <label htmlFor="amount">Payment Amount ($)</label>
-              <input type="text" id="amount" name="amount" min="1" required />
-            </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="amount">Payment Amount ($)</label>
+                <input type="text" id="amount" name="amount" min="1" required />
+              </div>
 
-            <div className={styles.formGroup}>
-              <label htmlFor="paymentMethod">Payment Method</label>
-              <select id="paymentMethod" name="paymentMethod" required>
-                <option value="">Select Payment Method</option>
-                <option value="creditCard">Credit Card</option>
-                <option value="debitCard">Debit Card</option>
-                <option value="PayTM">PayTM</option>
-                <option value="PhonePe">PhonePe</option>
-                <option value="Google Pay">Google Pay</option>
-                <option value="Amazon Pay">Amazon Pay</option>
-              </select>
-            </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="paymentMethod">Payment Method</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                  <option value="">Select Payment Method</option>
+                  <option value="creditCard">Credit Card</option>
+                  <option value="debitCard">Debit Card</option>
+                  <option value="PayTM">PayTM</option>
+                  <option value="PhonePe">PhonePe</option>
+                  <option value="Google Pay">Google Pay</option>
+                  <option value="Amazon Pay">Amazon Pay</option>
+                </select>
+              </div>
 
-            <div className={styles.feesubmitbtn}>
-              <button type="submit">Submit Payment</button>
-            </div>
-          </form>
+              <div className={styles.feesubmitbtn}>
+                <button type="submit">Submit Payment</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-
       {/* Conditionally render the FeeReceipt component after successfully payment */}
       {paymentData && (
         <FeeReceipt
@@ -245,135 +248,137 @@ export function LibraryContent({ onLogout }) {
 
   return (
     <>
-      <div className={styles.libraryDetails}>
-        <h2 style={{ color: "red" }}>Library Content</h2>
-        <p>Welcome to the library! You can access books, resources, and more.</p>
-      </div>
-      <Link
-        to="/online-services/library-access"
-        onClick={onLogout}
-        className={styles.logout}     //after library access login, logout option will be there.
-      >
-        Logout
-      </Link>
-      <div className={styles.librarySections}>
-        <h3>Add a New Book</h3>
-        {/* Add Book Form */}
-        <div className={styles.addBookForm}>
-          <form className={styles.formContainer}>
-            <div className={styles.formGroup}>
-              <label htmlFor="newId" className={styles.booklabel}>
-                Book ID
-              </label>
-              <input
-                type="text"
-                id="newId"
-                name="id"
-                value={newBook.id}
-                onChange={handleInputChange}
-                className={styles.bookinput}
-                required
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="newName" className={styles.booklabel}>
-                Book Name
-              </label>
-              <input
-                type="text"
-                id="newName"
-                name="name"
-                value={newBook.name}
-                onChange={handleInputChange}
-                className={styles.bookinput}
-                required
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="newAuthor" className={styles.booklabel}>
-                Author Name
-              </label>
-              <input
-                type="text"
-                id="newAuthor"
-                name="author"
-                value={newBook.author}
-                onChange={handleInputChange}
-                className={styles.bookinput}
-                required
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="newDate" className={styles.booklabel}>
-                Date
-              </label>
-              <input
-                type="date"
-                id="newDate"
-                name="date"
-                value={newBook.date}
-                onChange={handleInputChange}
-                className={styles.bookinputdate}
-                required
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="newBorrower" className={styles.booklabel}>
-                Borrower
-              </label>
-              <input
-                type="text"
-                id="newBorrower"
-                name="borrower"
-                value={newBook.borrower}
-                onChange={handleInputChange}
-                className={styles.bookinput}
-                required
-              />
-            </div>
-            <div className={styles.formGroup}>
-              <button
-                onClick={handleAddBook}
-                className={styles.addButton}
-              >
-                Add Book
-              </button>
-            </div>
-          </form>
+      <div className={styles.libraryPage}>
+        <div className={styles.libraryDetails}>
+          <h2 style={{ color: "red" }}>Library Content</h2>
+          <p>Welcome to the library! You can access books, resources, and more.</p>
         </div>
-      </div>
-      {/* Book Table */}
-      <table className={styles.bookTable}>
-        <thead>
-          <tr>
-            <th>Book ID</th>
-            <th>Book Name</th>
-            <th>Author Name</th>
-            <th>Date</th>
-            <th>Borrower</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {bookData.map((book) => (
-            <tr key={book.id}>
-              <td>{book.id}</td>
-              <td>{book.name}</td>
-              <td>{book.author}</td>
-              <td>{book.date}</td>
-              <td>{book.borrower}</td>
-              <td>
+        <Link
+          to="/online-services/library-access"
+          onClick={onLogout}
+          className={styles.logout}     //after library access login, logout option will be there.
+        >
+          Logout
+        </Link>
+        <div className={styles.librarySections}>
+          <h3>Add a New Book</h3>
+          {/* Add Book Form */}
+          <div className={styles.addBookForm}>
+            <form className={styles.formContainer}>
+              <div className={styles.formGroup}>
+                <label htmlFor="newId" className={styles.booklabel}>
+                  Book ID
+                </label>
+                <input
+                  type="text"
+                  id="newId"
+                  name="id"
+                  value={newBook.id}
+                  onChange={handleInputChange}
+                  className={styles.bookinput}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="newName" className={styles.booklabel}>
+                  Book Name
+                </label>
+                <input
+                  type="text"
+                  id="newName"
+                  name="name"
+                  value={newBook.name}
+                  onChange={handleInputChange}
+                  className={styles.bookinput}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="newAuthor" className={styles.booklabel}>
+                  Author Name
+                </label>
+                <input
+                  type="text"
+                  id="newAuthor"
+                  name="author"
+                  value={newBook.author}
+                  onChange={handleInputChange}
+                  className={styles.bookinput}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="newDate" className={styles.booklabel}>
+                  Date
+                </label>
+                <input
+                  type="date"
+                  id="newDate"
+                  name="date"
+                  value={newBook.date}
+                  onChange={handleInputChange}
+                  className={styles.bookinputdate}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
+                <label htmlFor="newBorrower" className={styles.booklabel}>
+                  Borrower
+                </label>
+                <input
+                  type="text"
+                  id="newBorrower"
+                  name="borrower"
+                  value={newBook.borrower}
+                  onChange={handleInputChange}
+                  className={styles.bookinput}
+                  required
+                />
+              </div>
+              <div className={styles.formGroup}>
                 <button
-                  onClick={() => handleDeleteBook(book.id)}
-                  className={styles.deleteButton}
+                  onClick={handleAddBook}
+                  className={styles.addButton}
                 >
-                  Delete
+                  Add Book
                 </button>
-              </td>
+              </div>
+            </form>
+          </div>
+        </div>
+        {/* Book Table */}
+        <table className={styles.bookTable}>
+          <thead>
+            <tr>
+              <th>Book ID</th>
+              <th>Book Name</th>
+              <th>Author Name</th>
+              <th>Date</th>
+              <th>Borrower</th>
+              <th>Action</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {bookData.map((book) => (
+              <tr key={book.id}>
+                <td>{book.id}</td>
+                <td>{book.name}</td>
+                <td>{book.author}</td>
+                <td>{book.date}</td>
+                <td>{book.borrower}</td>
+                <td>
+                  <button
+                    onClick={() => handleDeleteBook(book.id)}
+                    className={styles.deleteButton}
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </>
   );
 }

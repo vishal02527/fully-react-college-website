@@ -63,6 +63,13 @@ footer p {
   font-size: 18px;
 }
 
+/* Define a class to hide the footer when printing */
+@media print {
+  .footer {
+    display: none;
+  }
+}
+
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .footer {
