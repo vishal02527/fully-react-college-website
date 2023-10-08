@@ -434,7 +434,7 @@ button:hover {
     margin-top: 10px;
     padding: 8px !important;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   /* media query for result */
