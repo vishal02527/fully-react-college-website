@@ -43,49 +43,13 @@ function FeeReceipt({ studentId, amount, paymentMethod }) {
     );
   };
 
-  const handlePrintFeeReceipt = () => {
-    // Hide the header when printing
-    const header = document.querySelector(".header");
-    if (header) {
-      header.style.display = "none";
-    }
-
-    // Add the "printOnly" class to elements you want to print
-    const elementsToPrint = document.querySelectorAll("#FeeReceiptSection");
-    elementsToPrint.forEach((element) => {
-      element.classList.add("printOnly");
-    });
-
-    // Use the print window to print the content
-    const printWindow = window.open("", "", "width=600,height=600");
-    printWindow.document.open();
-    printWindow.document.write("<html><head><title>Print</title></head><body>");
-
-    elementsToPrint.forEach((element) => {
-      printWindow.document.write(element.outerHTML);
-    });
-
-    printWindow.document.write("</body></html>");
-    printWindow.document.close();
-    printWindow.print();
-
-    // Close the print window after printing
-    printWindow.close();
-
-    // Remove the "printOnly" class and reset the header visibility after printing
-    elementsToPrint.forEach((element) => {
-      element.classList.remove("printOnly");
-    });
-    if (header) {
-      header.style.display = "block";
-    }
-  };
+  
 
   return (
     <>
       <div
         id="FeeReceiptSection"
-        className={`${styles.FeeReceiptContainer} printOnly`}
+        className={styles.FeeReceiptContainer}
       >
         <div>
           <img src={logo} className={styles.FeeReceiptLogo} />
@@ -118,16 +82,13 @@ function FeeReceipt({ studentId, amount, paymentMethod }) {
           </div>
         </div>
       </div>
-      <div className={styles.downloadPrintDiv}>
+      <div className={styles.downloadDiv}>
         {/* ... Download fee receipt as pdf ... */}
         <button
           onClick={handleDownloadFeeReceipt}
           className={styles.downloadBtn}
         >
           Download Fee Receipt (PDF)
-        </button>
-        <button onClick={handlePrintFeeReceipt} className={styles.printBtn}>
-          Print Fee Receipt
         </button>
       </div>
     </>

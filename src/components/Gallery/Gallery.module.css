@@ -73,7 +73,7 @@
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .gallery {
-    margin: 20px 5% 50px;
+    margin: 20px 5% 80px;
   }
 
   .imageGrid {

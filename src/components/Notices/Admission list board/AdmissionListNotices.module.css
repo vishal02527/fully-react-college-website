@@ -1,5 +1,7 @@
 .noticeDiv {
   height: 30vh;
+  margin: 20px auto;
+
 }
 .noticeHeading {
   color: red;

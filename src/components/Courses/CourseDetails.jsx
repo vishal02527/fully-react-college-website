@@ -209,7 +209,7 @@ function CourseDetails() {
           ))}
         </ul>
         <Link to={"/admission"}>
-          <button className={styles.enrollbtn}>Apply now</button>
+          <button className={styles.applybtn}>Apply now</button>
         </Link>
       </div>
     </div>

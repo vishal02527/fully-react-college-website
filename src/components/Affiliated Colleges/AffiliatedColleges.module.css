@@ -31,7 +31,7 @@
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .collegesContainer {
-    margin: 0% 3% 2% 2%;
+    margin: 0% 2% 10% 1%;
   }
 
   .collegeTable {

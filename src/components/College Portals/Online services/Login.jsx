@@ -45,7 +45,7 @@ function Login({ onLogin }) {
               className={styles.loginput}
             />
           </div>
-          <button type="submit" className={styles.button}>
+          <button className={styles.logbtn}>
             Login
           </button>
           {error && <p className={styles.error}>{error}</p>}

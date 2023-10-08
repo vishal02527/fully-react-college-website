@@ -1,5 +1,6 @@
 .onlineServices {
   padding: 10px;
+  margin: 20px auto 40px;
 }
 
 .onlineServices h2 {
@@ -59,7 +60,7 @@
 
 .examinationForm {
   max-width: 500px;
-  margin: 0 auto 40px;
+  margin: 20px auto 80px;
   padding: 20px 50px;
   background-color: #dedede;
   border: 1px solid #ccc;
@@ -90,6 +91,25 @@
   outline: 0;
   border: 1px solid #ccc;
   border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.examinationForm input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  outline: none;
+  transform: scale(1.02);
+  animation: glowing 1.5s infinite;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
 }
 .examinationForm select {
   width: 100%;
@@ -100,7 +120,7 @@
 }
 
 .examformbtn {
-  background-color: #12de89;
+  background-color: #5ec52e;
   color: #fff;
   padding: 10px 20px;
   font-size: 18px;
@@ -113,7 +133,7 @@
 }
 
 .examformbtn:hover {
-  background-color: #12bd76;
+  background-color: #42b80c;
 }
 
 /* Style for the Fee payment component */
@@ -127,7 +147,7 @@
 
 .feeService {
   width: 400px;
-  margin: 2% auto;
+  margin: 2% auto 4%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -164,6 +184,27 @@ p {
   outline: 0;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.paymentForm input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  outline: none;
+  transform: scale(1.02);
+  animation: glowing 1.5s infinite;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
 }
 .paymentForm select {
   width: 100%;
@@ -176,7 +217,8 @@ p {
   margin-top: 25px;
 }
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #5ec52e;
+  font-size: 16px;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -185,7 +227,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #42b80c;
 }
 
 /* Style for the Library Content component */
@@ -249,6 +291,26 @@ h2 {
   border-radius: 4px;
   font-size: 16px;
   outline: 0;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.bookinput:focus:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  outline: none;
+  transform: scale(1.02);
+  animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
 }
 
 /* Add button styles */

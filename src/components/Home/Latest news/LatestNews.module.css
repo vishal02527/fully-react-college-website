@@ -1,5 +1,6 @@
 .newsDiv {
   height: 30vh;
+  margin: 20px auto;
 }
 .newsHeading {
   color: red;

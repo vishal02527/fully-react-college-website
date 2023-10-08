@@ -36,12 +36,25 @@
   color: #666;
   margin-bottom: 5px;
 }
+.applybtn{
+  background-color: #5ec52e;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.applybtn:hover{
+  background-color: #42b80c;
+  color: #fff;
+}
 
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .course-details-container {
     padding: 10px;
-    margin: 5% auto;
+    margin: 10% auto;
   }
 
   .course-details {
@@ -66,5 +79,10 @@
   .course-details li {
     font-size: 12px;
     margin-bottom: 5px;
+  }
+
+  .applybtn{
+    font-size: 14px;
+    padding: 8px 10px;
   }
 }

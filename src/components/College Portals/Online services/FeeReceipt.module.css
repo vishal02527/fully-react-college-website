@@ -62,7 +62,7 @@
   width: 60px;
   height: 30px;
 }
-.downloadPrintDiv {
+.downloadDiv {
   margin-bottom: 3%;
 }
 .downloadBtn {
@@ -72,18 +72,6 @@
   border: none;
   border-radius: 5px;
   font-size: 15px;
-}
-.printBtn {
-  padding: 12px 15px;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
-  background-color: rgb(250, 66, 66);
-  margin-left: 25px;
-}
-.printBtn:hover {
-  background-color: rgb(247, 36, 36);
 }
 
 .downloadBtn:hover {
@@ -137,16 +125,12 @@
   .FeeReceiptFooter img {
     margin-left: -5px;
   }
-  .downloadPrintDiv {
+  .downloadDiv {
     margin: 5% 2% 8%;
   }
   .downloadBtn {
     padding: 10px;
     font-size: 12px;
   }
-  .printBtn {
-    padding: 10px;
-    font-size: 12px;
-    margin-left: 10px;
-  }
+  
 }
