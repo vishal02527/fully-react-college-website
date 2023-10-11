@@ -6,9 +6,10 @@ function PageNotFound() {
   return (
     <div className={styles.pageNotFound}>
       <div className={styles.content}>
-        <img src={errorImage} className={styles.errorImage} />
+        <img src={errorImage} className={styles.errorImage} alt="Error" />
+        <h1 className={styles.title}>Oops! Page Not Found</h1>
         <p className={styles.description}>
-          Oops! The page you are looking for might have been removed or is
+          The page you are looking for might have been removed or is
           temporarily unavailable.
         </p>
         <a href="/" className={styles.link}>
