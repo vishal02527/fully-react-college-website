@@ -29,6 +29,7 @@ import BasicDetails from "./components/Home/Academic activities/BasicDetails";
 import AcademicActivities from "./components/Home/Academic activities/Academicactivities";
 import Footer from "./components/Footer/Footer";
 import PageNotFound from "./components/404 error page/404Page";
+import Feedback from "./components/Footer/Feedback";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -85,6 +86,7 @@ function App() {
         />
         <Route path="/:detail" element={<BasicDetails />} />
         <Route path="/:detail/:activity" element={<AcademicActivities />} />
+        <Route path="/share_your_feedback" element={<Feedback />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

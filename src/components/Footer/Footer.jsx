@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -60,6 +61,9 @@ function Footer() {
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
+          <Link to={"/share_your_feedback"}>
+            <div className={styles.feedbackDiv}>Share your feedback</div>
+          </Link>
         </div>
       </div>
       <p className={styles.creator}>&copy; created by Vishal Kumar</p>

@@ -63,6 +63,19 @@ footer p {
   font-size: 18px;
 }
 
+.feedbackDiv {
+  background-color: blue;
+  color: #fff;
+  font-size: 18px;
+  max-width: 40%;
+  padding: 20px 15px;
+  margin: 4% 0% 0% 26%;
+  cursor: pointer;
+}
+.feedbackDiv:hover {
+  background-color: rgb(2, 2, 221);
+}
+
 /* Define a class to hide the footer when printing */
 @media print {
   .footer {
@@ -118,5 +131,10 @@ footer p {
   .creator {
     margin-top: 20px;
     font-size: 14px;
+  }
+  .feedbackDiv {
+    font-size: 16px;
+    max-width: 38%;
+    padding: 20px;
   }
 }
