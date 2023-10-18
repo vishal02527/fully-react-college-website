@@ -134,7 +134,10 @@ footer p {
   }
   .feedbackDiv {
     font-size: 16px;
+<<<<<<< HEAD
     max-width: 45%;
+=======
+>>>>>>> origin/main
     padding: 20px 10px;
   }
 }
