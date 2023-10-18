@@ -135,6 +135,7 @@ footer p {
   .feedbackDiv {
     font-size: 16px;
     max-width: 38%;
-    padding: 20px;
+    padding: 20px 10px;
+    margin-left: 27%;
   }
 }

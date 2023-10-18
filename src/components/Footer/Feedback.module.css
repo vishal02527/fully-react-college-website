@@ -236,6 +236,10 @@ textarea {
     font-size: 16px;
   }
 
+  .clue{
+    font-size: 14px;
+  }
+
   .inputRadio,
   .inputCheckbox {
     min-height: 1rem;
