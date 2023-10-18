@@ -64,7 +64,7 @@ footer p {
 }
 
 .feedbackDiv {
-  background-color: blue;
+  background-color: rgb(1, 67, 110);
   color: #fff;
   font-size: 18px;
   max-width: 40%;
@@ -73,7 +73,7 @@ footer p {
   cursor: pointer;
 }
 .feedbackDiv:hover {
-  background-color: rgb(2, 2, 221);
+  background-color: rgb(1, 60, 100);
 }
 
 /* Define a class to hide the footer when printing */

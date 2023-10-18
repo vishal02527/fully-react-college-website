@@ -252,6 +252,9 @@ textarea {
   textarea {
     margin-left: 5px;
   }
+  textarea{
+    resize: none;
+  }
 
   .comment {
     height: 100px;
