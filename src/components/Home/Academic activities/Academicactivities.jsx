@@ -45,17 +45,17 @@ function AcademicActivities() {
       customActivationDateTime: new Date("2023-10-15T21:00:00"),
       customEndDateTime: new Date("2023-11-15T21:00:00"), // End time is 21:00 PM at 20 nov.
     },
-    "quiz-mania": {
-      title: "Quiz Mania",
+    "best-introduction": {
+      title: "Best Introduction",
       description:
-        "Test your knowledge in our Quiz Mania event. Fun questions, great prizes, and intellectual glory await!",
-      date: "Date: July 10, 2024",
-      time: "Time: 3:00 PM",
-      mode: "Mode: Offline(College Hall)",
+        "Learn the skills to make a lasting impression in any setting, from meetings to social events by giving your attractive introduction.",
+      date: "Date: October 1, 2023",
+      time: "Time: 21:00 PM",
+      mode: "Mode: Online",
       image:
-        "https://media.istockphoto.com/id/1369997376/vector/quiz-background.jpg?s=612x612&w=0&k=20&c=Wwad4O9O31FGjFCBknfU4wBS99lICbaNaFlpQ3PK-4o=",
-      customActivationDateTime: "",
-      customEndDateTime: "",
+        "https://media.istockphoto.com/id/1422817042/vector/diversity-handshake-with-two-businesspeople.jpg?s=612x612&w=0&k=20&c=Rqxr0JC9xk1qBaJm2Vl7ErrC3F-Z5eB1Mx_dVC_YDt8=",
+      customActivationDateTime: new Date("2023-10-01T21:00:00"),
+      customEndDateTime: new Date("2023-11-01T21:00:00"),
     },
     "coding-challenge": {
       title: "Coding Challenge",
@@ -102,12 +102,13 @@ function AcademicActivities() {
     return <PageNotFound />;
   }
 
-  // Titles that should have a button after the location paragraph
+  // Titles that should have a button after the mode paragraph
   const titlesWithButton = [
     "Drawing Competition",
     "Coding Challenge",
     "Poetry Contest",
     "Acting Show",
+    "Best Introduction",
   ];
 
   const customActivationDateTime = selectedActivity.customActivationDateTime;

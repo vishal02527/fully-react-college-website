@@ -39,12 +39,12 @@ function BasicDetails() {
     },
     {
       id: 4,
-      title: "Quiz Mania",
+      title: "Best Introduction",
       description:
-        "Test your knowledge in our Quiz Mania event. Fun questions, great prizes!",
+        "Learn the skills to make a lasting impression in any setting, from meetings to social events by giving your attractive introduction.",
       imageUrl:
-        "https://media.istockphoto.com/id/1369997376/vector/quiz-background.jpg?s=612x612&w=0&k=20&c=Wwad4O9O31FGjFCBknfU4wBS99lICbaNaFlpQ3PK-4o=",
-      route: "/academic-activity/quiz-mania", // Dynamic route
+        "https://media.istockphoto.com/id/1422817042/vector/diversity-handshake-with-two-businesspeople.jpg?s=612x612&w=0&k=20&c=Rqxr0JC9xk1qBaJm2Vl7ErrC3F-Z5eB1Mx_dVC_YDt8=",
+      route: "/academic-activity/best-introduction", // Dynamic route
     },
     {
       id: 5,

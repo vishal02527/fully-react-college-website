@@ -55,6 +55,13 @@ function TaskActivity() {
       para3:
         "3. Present your artwork during the drawing competition, explaining the inspiration behind your piece and the techniques you used. Engage with the judges and viewers to help them connect with the world of dreams and imagination you've depicted.",
     },
+    "best-introduction": {
+      title: "Best Introduction",
+      question: "Introduce yourself professionally and impress us with your communication skills. Tell us about your background, interests, and aspirations.",
+      para1: "Make your best introduction video and submit the link. You can highlight your educational and professional background to establish your expertise and credibility.",
+      para2: "Share your interests and passions to create a personal connection with the audience.",
+      para3: "Conclude by discussing your future goals and aspirations to showcase your motivation and vision for the future.",
+    },    
     "acting-show": {
       title: "Acting Show",
       question: "Perform a monologue from a famous Shakespearean play.",
