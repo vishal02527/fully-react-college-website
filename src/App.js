@@ -27,6 +27,7 @@ import ELearning from "./components/College Portals/E-learning/E-Learning";
 import LearningPage from "./components/College Portals/E-learning/LearningPage";
 import BasicDetails from "./components/Home/Academic activities/BasicDetails";
 import AcademicActivities from "./components/Home/Academic activities/Academicactivities";
+import TaskActivity from "./components/Home/Academic activities/taskActivity";
 import Footer from "./components/Footer/Footer";
 import PageNotFound from "./components/404 error page/404Page";
 import Feedback from "./components/Footer/Feedback";
@@ -86,6 +87,7 @@ function App() {
         />
         <Route path="/:detail" element={<BasicDetails />} />
         <Route path="/:detail/:activity" element={<AcademicActivities />} />
+        <Route path="/academic-activity/:activity/task" element={<TaskActivity />} />
         <Route path="/share_your_feedback" element={<Feedback />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
