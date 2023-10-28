@@ -8,7 +8,7 @@ function Footer() {
       <div className={styles.container}>
         <div className={styles.column}>
           <h3 className={styles.title}>Contact Us</h3>
-          <p className={styles.contactInfo}>Email: info@college.com</p>
+          <p className={styles.contactInfo}>Email: support@VDU.com</p>
           <p className={styles.contactInfo}>
             Website: vishal-digital-university.vercel.app
           </p>

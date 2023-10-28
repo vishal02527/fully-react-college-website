@@ -244,19 +244,21 @@ function BasicDetails() {
     );
   } else if (detail === "admission-process") {
     detailContent = (
-      <div className={admitprocess.admissionProcess}>
-        <h2>Admission Process</h2>
-        <div className={admitprocess.stepsContainer}>
-          <div className={admitprocess.step}>
-            <h3>{steps[currentStep].title}</h3>
-            <p>{steps[currentStep].description}</p>
-            <div className={admitprocess.navigation}>
-              {currentStep > 0 && (
-                <button onClick={handlePrevious}>Previous</button>
-              )}
-              {currentStep < steps.length - 1 && (
-                <button onClick={handleNext}>Next</button>
-              )}
+      <div>
+        <div className={admitprocess.admissionProcess}>
+          <h2>Admission Process</h2>
+          <div className={admitprocess.stepsContainer}>
+            <div className={admitprocess.step}>
+              <h3>{steps[currentStep].title}</h3>
+              <p>{steps[currentStep].description}</p>
+              <div className={admitprocess.navigation}>
+                {currentStep > 0 && (
+                  <button onClick={handlePrevious}>Previous</button>
+                )}
+                {currentStep < steps.length - 1 && (
+                  <button onClick={handleNext}>Next</button>
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -265,9 +267,7 @@ function BasicDetails() {
   }
 
   if (!detail) {
-    return (
-      <PageNotFound />
-    );
+    return <PageNotFound />;
   }
 
   return <div>{detailContent}</div>;

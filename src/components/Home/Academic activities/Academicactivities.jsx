@@ -5,7 +5,7 @@ import PageNotFound from "../../404 error page/404Page";
 
 function AcademicActivities() {
   const { activity } = useParams();
-  const Navigate = useNavigate(); // Import useHistory
+  const Navigate = useNavigate();
 
   // Define content for different academic activities
   const activitiesContent = {
