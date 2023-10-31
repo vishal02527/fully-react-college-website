@@ -182,7 +182,7 @@ function Home() {
 
             <button className={styles.ProfileBtn}>
               <a
-                href="https://vishal-new-portfolio.netlify.app/"
+                href="https://vishal-creator-profile.netlify.app/"
                 target="_blank"
               >
                 View Profile
