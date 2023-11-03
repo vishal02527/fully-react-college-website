@@ -105,18 +105,21 @@ function TaskActivity() {
           </p>
           <input
             type="text"
-            placeholder="URL link 1"
+            placeholder="Your name"
             className={styles.quesDivInput}
+            required
           />
           <input
             type="text"
-            placeholder="URL link 2"
+            placeholder="Your email"
             className={styles.quesDivInput}
+            required
           />
           <input
             type="text"
-            placeholder="URL link 3"
+            placeholder="URL link"
             className={styles.quesDivInput}
+            required
           />
           <p>
             <button className={styles.submitLinkBtn}>Submit Links</button>
