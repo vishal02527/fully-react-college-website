@@ -10,11 +10,15 @@ function Feedback() {
   const [facility, setFacility] = useState("");
   const [experience, setExperience] = useState("");
 
-  const handleSubmitFeedback = () => {
+  const handleSubmitFeedback = (e) => {
+    e.preventDefault();
     if (name && email && phone && role && facility && experience) {
       // All required fields are filled
       setSubmitted(true);
+      
     }
+    console.log(phone);
+    console.log(email);
   };
 
   return (
@@ -307,7 +311,7 @@ function Feedback() {
                 ></textarea>
               </div>
               <div class={styles.formGroup}>
-                <button onClick={handleSubmitFeedback} className={styles.btn}>
+                <button onClick={(e) => handleSubmitFeedback} className={styles.btn}>
                   Submit
                 </button>
               </div>
