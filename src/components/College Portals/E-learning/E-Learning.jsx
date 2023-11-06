@@ -66,11 +66,6 @@ function ELearning() {
             </Link>
           </li>
         </ul>
-        <div className={styles.quizDiv}>
-          <a href="https://playquizwithvishal.netlify.app/" target="_blank">
-            <button className={styles.quizBtn}>Play Quiz</button>
-          </a>
-        </div>
       </div>
     </>
   );
