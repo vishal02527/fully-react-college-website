@@ -139,8 +139,7 @@ function Home() {
           <img
             src="https://rmpssu.ac.in/images/UP-GOVERNOR.jpg"
             alt="Governor of U.P."
-            width="260"
-            height="250"
+            className={styles.personImg}
           />
           <div className={styles.governorDetailDiv}>
             <h8 className={styles.governorName}>
@@ -167,8 +166,7 @@ function Home() {
           <img
             src={creator}
             alt="creator of V.D.U"
-            width="260"
-            height="250"
+            className={styles.personImg}
           />
           <div className={styles.creatorDetailDiv}>
             <h8 className={styles.creatorName}>
@@ -194,8 +192,7 @@ function Home() {
           <img
             src="https://rmpssu.ac.in/img/VC.jpeg"
             alt="vice chancellor"
-            width="260"
-            height="250"
+            className={styles.personImg}
           />
           <div className={styles.viceChancellorDetailDiv}>
             <h8 className={styles.viceChancellorName}>

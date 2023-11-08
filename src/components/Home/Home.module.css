@@ -90,6 +90,10 @@ a span {
   display: flex;
   flex-direction: column;
 }
+.personImg{
+  width: 260px;
+  height: 250px;
+}
 .governorName,
 .viceChancellorName,
 .creatorName {
@@ -135,7 +139,7 @@ a span {
 
   .carouselImage {
     width: 100%;
-    height: 250px;
+    height: 210px;
   }
 
   .marqueediv {
@@ -160,19 +164,19 @@ a span {
   }
 
   .collegenotices {
-    margin: 2%;
+    margin: 2% 3%;
     display: flex;
     flex-direction: column;
   }
 
   .portalbtn {
     max-width: 100%;
-    padding: 20px;
+    padding: 15px;
     margin: 8px;
   }
 
   .portals {
-    margin: 40px 1%;
+    margin: 40px 2%;
   }
 
   .portalLinks {
@@ -190,8 +194,14 @@ a span {
   .governorDiv,
   .viceChancellorDiv,
   .creatorDiv {
-    width: 70%;
+    width: 80%;
     margin: 10px 0;
+    padding: 7px 3px;
+  }
+  
+  .personImg{
+    width: 240px;
+    height: 230px;
   }
 
   .ProfileBtn {
