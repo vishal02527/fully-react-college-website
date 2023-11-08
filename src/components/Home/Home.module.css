@@ -90,7 +90,7 @@ a span {
   display: flex;
   flex-direction: column;
 }
-.personImg{
+.personImg {
   width: 260px;
   height: 250px;
 }
@@ -171,7 +171,7 @@ a span {
 
   .portalbtn {
     max-width: 100%;
-    padding: 15px;
+    padding: 20px;
     margin: 8px;
   }
 
@@ -198,8 +198,8 @@ a span {
     margin: 10px 0;
     padding: 7px 3px;
   }
-  
-  .personImg{
+
+  .personImg {
     width: 240px;
     height: 230px;
   }

@@ -73,18 +73,19 @@
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .gallery {
-    margin: 20px 5% 80px;
+    margin: 40px 4% 80px;
   }
 
   .imageGrid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     gap: 10px;
   }
 
   .imageContainer {
-    height: 100px;
+    height: 90px;
     border-radius: 4px;
   }
+  
 
   .modalImage {
     max-width: 100%;

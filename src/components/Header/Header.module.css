@@ -64,7 +64,7 @@ nav a.active {
 
   nav ul {
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 12px;
   }
 
   nav li {
@@ -76,7 +76,7 @@ nav a.active {
     height: 90px;
     margin-right: 15px;
   }
-  
+
   .uniName {
     font-size: 20px;
     margin-bottom: 10px;

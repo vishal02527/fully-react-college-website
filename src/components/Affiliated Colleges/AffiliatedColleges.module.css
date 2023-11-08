@@ -31,7 +31,8 @@
 /* Media query for mobile screens */
 @media (max-width: 768px) {
   .collegesContainer {
-    margin: 0% 2% 10% 1%;
+    margin: 0% 0% 15% 0%;
+    padding: 10px;
   }
 
   .collegeTable {
@@ -44,6 +45,10 @@
   }
 
   .collegeTable th {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .collegeTable td {
+    font-size: 12px;
   }
 }

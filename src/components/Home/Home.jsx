@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Card from "./Home Cards/Card";
 import NoticeBoard from "../Notices/Notices and updates board/NoticeBoard";
 import AdmissionNoticeBoard from "../Notices/Admission list board/AdmissionList";
-import creator from '../images/creator.jpg'
+import creator from "../images/creator.jpg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -142,12 +142,11 @@ function Home() {
             className={styles.personImg}
           />
           <div className={styles.governorDetailDiv}>
-            <h8 className={styles.governorName}>
-              Smt. Anandiben Patel
-            </h8>
+            <h8 className={styles.governorName}>Smt. Anandiben Patel</h8>
             <p className={styles.governorPara}>
               Hon’ble Chancellor &amp;
-              <br /><br />
+              <br />
+              <br />
               H.E. Governor of U.P.
             </p>
 
@@ -169,12 +168,11 @@ function Home() {
             className={styles.personImg}
           />
           <div className={styles.creatorDetailDiv}>
-            <h8 className={styles.creatorName}>
-              Mr. Vishal Kumar
-            </h8>
+            <h8 className={styles.creatorName}>Mr. Vishal Kumar</h8>
             <p className={styles.creatorPara}>
               Hon’ble Founder &amp;
-              <br /><br />
+              <br />
+              <br />
               Creator of V.D.U.
             </p>
 
@@ -200,16 +198,13 @@ function Home() {
             </h8>
             <p className={styles.viceChancellorPara}>
               Hon’ble vice chancellor &amp;
-              <br /><br />
+              <br />
+              <br />
               Head of anti-ragging committee
             </p>
 
             <button className={styles.ProfileBtn}>
-              <a
-                href="#"
-              >
-                View Profile
-              </a>
+              <a href="#">View Profile</a>
             </button>
           </div>
         </div>

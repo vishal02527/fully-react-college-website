@@ -228,7 +228,7 @@ function Results() {
       photograph:
         "https://media.istockphoto.com/id/1473711199/photo/face-portrait-student-and-man-in-university-ready-for-back-to-school-learning-goals-or.jpg?s=612x612&w=0&k=20&c=Xrwp5ePvm6RjixgAjJo-OAw9oXkLt_HcmT3bdlLZUdw=",
       dateOfBirth: "01/15/2003",
-      instituteName: "GOVERNMENT DEGREE COLLEGE, KHAIR, ALIGARH",
+      instituteName: "RAJKIYE MAHAVIDYALAYA, ALIGARH",
       enrollNo: "VDU9068",
       course: "BSC(CS)",
       semester: "5th Sem",
@@ -293,7 +293,7 @@ function Results() {
       photograph:
         "https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?s=612x612&w=0&k=20&c=qyj5Dh8_uN5Xue9aICOI0z_OYyzNh_f1pFeAhRA4FQA=",
       dateOfBirth: "19/04/2003",
-      instituteName: "P.M. COLLEGE OF EDUCATION, KARSUA, ALIGARH",
+      instituteName: "S.K. COLLEGE, G.T. ROAD, ETAH",
       enrollNo: "VDU4210",
       course: "BTECH",
       semester: "2nd Sem",
@@ -365,7 +365,7 @@ function Results() {
       photograph:
         "https://media.istockphoto.com/id/1325565779/photo/smiling-african-american-business-woman-wearing-stylish-eyeglasses-looking-at-camera-standing.jpg?s=612x612&w=0&k=20&c=wsNA_POOFtsKGjucqci4ndeSX-NWcT3hEt9E3a_oXpY=",
       dateOfBirth: "10/06/2004",
-      instituteName: "GAGAN COLLEGE OF MANAGEMENT AND TECHNOLOGY,ALIGARH",
+      instituteName: "SRI VARSHNEY COLLEGE, ALIGARH",
       enrollNo: "VDU3376",
       course: "MSC(Mathematics)",
       semester: "2nd Sem",

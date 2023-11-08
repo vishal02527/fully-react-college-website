@@ -396,7 +396,11 @@ h2 {
   }
 
   .servicesList div {
-    margin: 0px 8px 0px 0px;
+    margin: 0px 5px;
+  }
+
+  .servicesList div li {
+    margin: 0px -2px;
   }
 
   /* media query for examination form*/
@@ -431,14 +435,9 @@ h2 {
 
   /* media query for fee payment component*/
 
-  .feePage,
-  .examformPage {
-    height: 70vh;
-  }
-
   .feeService {
-    width: 300px;
-    margin: 0% auto 10%;
+    width: 250px;
+    margin: 0% auto 20%;
     padding: 20px;
   }
   .FeesPaymentDetails p {
@@ -473,7 +472,7 @@ h2 {
 
   .logout {
     top: 50% !important;
-    left: 45%;
+    left: 42%;
     font-size: 16px;
   }
   .libraryDetails p {
@@ -505,11 +504,11 @@ h2 {
 
   .addButton {
     padding: 8px 14px;
-    margin-left: 110px !important;
+    margin-left: 75px !important;
   }
 
   .bookTable {
-    width: 90%;
+    width: 92%;
     margin: 8% 2% 20% 5%;
   }
 

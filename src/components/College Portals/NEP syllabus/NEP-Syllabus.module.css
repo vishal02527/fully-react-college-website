@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 600px) {
   .nepSyllabus {
-    padding: 20px 22px;
+    padding: 20px 12px;
   }
   .nepSyllabus h2 {
     font-size: 20px;
@@ -78,7 +78,7 @@
   .syllabusContent {
     padding: 5px 12px;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px;
   }
 
   .syllabusContent h3 {
