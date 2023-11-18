@@ -471,7 +471,7 @@ h2 {
   }
 
   .logout {
-    top: 50% !important;
+    top: 40% !important;
     left: 42%;
     font-size: 16px;
   }
@@ -504,7 +504,7 @@ h2 {
 
   .addButton {
     padding: 8px 14px;
-    margin-left: 75px !important;
+    margin-left: 90px !important;
   }
 
   .bookTable {
