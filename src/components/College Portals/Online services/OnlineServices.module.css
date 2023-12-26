@@ -332,7 +332,7 @@ h2 {
 /* Table styles */
 .bookTable {
   width: 80%;
-  margin: 2% 5% 2% 9%;
+  margin: 2% 5% 5% 9%;
   border-collapse: collapse;
 }
 
@@ -471,8 +471,8 @@ h2 {
   }
 
   .logout {
-    top: 41% !important;
-    left: 43%;
+    top: 49% !important;
+    left: 42%;
     font-size: 16px;
   }
   .libraryDetails p {
@@ -504,12 +504,12 @@ h2 {
 
   .addButton {
     padding: 8px 14px;
-    margin-left: 95px !important;
+    margin-left: 75px !important;
   }
 
   .bookTable {
     width: 92%;
-    margin: 8% 2% 20% 5%;
+    margin: 8% 2% 22% 5%;
   }
 
   .bookTable th,

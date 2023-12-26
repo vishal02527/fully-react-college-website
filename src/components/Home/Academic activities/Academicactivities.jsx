@@ -37,13 +37,13 @@ function AcademicActivities() {
       title: "Drawing Competition",
       description:
         'Join our exciting Drawing Competition and showcase your artistic talent. Theme: "Nature\'s Beauty". Prizes to be won!',
-      date: "Date: October 15, 2023",
-      time: "Time: 21:00 PM",
+      date: "Date: Jan 1, 2024",
+      time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/844357070/photo/back-to-school-concept.jpg?s=612x612&w=0&k=20&c=N91gKNVv8ljPNcpx3Aha2m8yct_b8QHdBnuBdqP-ZLY=",
-      customActivationDateTime: new Date("2023-10-15T21:00:00"),
-      customEndDateTime: new Date("2023-11-15T21:00:00"), // End time is 21:00 PM at 20 nov.
+      customActivationDateTime: new Date("2024-01-01T09:00:00"),
+      customEndDateTime: new Date("2024-02-01T09:00:00"), // End time is 09:00 AM on 01 feb.
     },
     "best-introduction": {
       title: "Best Introduction",
@@ -67,31 +67,31 @@ function AcademicActivities() {
       image:
         "https://media.istockphoto.com/id/1262697466/vector/programming-code-icon-3d-low-polygonal-abstract-programming-code-symbol-coding-or-hacker.jpg?s=612x612&w=0&k=20&c=9A8KUPzUHRvyAbIWR7wUzPhXVahBesidXexyqTd71fI=",
       customActivationDateTime: new Date("2023-12-01T21:00:00"),
-      customEndDateTime: new Date("2024-01-01T21:00:00"), // End time is 21:00 PM at 20 nov.
+      customEndDateTime: new Date("2024-03-01T21:00:00"),
     },
     "poetry-contest": {
       title: "Poetry Contest",
       description:
         'Express yourself through poetry in our Poetry Contest. Theme: "Emotions Unveiled". Winners get published in our annual poetry book!',
-      date: "Date: October 15, 2023",
+      date: "Date: feb 15, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1313283994/vector/3d-isometric-flat-vector-conceptual-illustration-of-creative-content-writing.jpg?s=612x612&w=0&k=20&c=mQ4aX12qBxcwK1j9o8BUwYlyJQxWFkb-W-suMfLGqkQ=",
-      customActivationDateTime: new Date("2023-10-15T09:00:00"),
-      customEndDateTime: new Date("2023-11-20T21:00:00"), // End time is 21:00 PM at 20 nov.
+      customActivationDateTime: new Date("2024-02-15T09:00:00"),
+      customEndDateTime: new Date("2024-03-30T21:00:00"),
     },
     "acting-show": {
       title: "Acting Show",
       description:
         "Drama enthusiasts, this is your stage! Showcase your acting skills in our Acting Show. Drama scripts provided!",
-      date: "Date: January 1, 2023",
+      date: "Date: April 10, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1322032180/vector/children-taking-acting-classes-vector-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=fd98zjT7U4zWPUc0qpU7yy3hCztWnSqpYUdXy51Yg-U=",
-      customActivationDateTime: new Date("2024-01-15T09:00:00"),
-      customEndDateTime: new Date("2024-02-15T21:00:00"), // End time is 21:00 PM at 20 nov.
+      customActivationDateTime: new Date("2024-04-10T09:00:00"),
+      customEndDateTime: new Date("2024-06-10T09:00:00"),
     },
   };
 
@@ -152,10 +152,11 @@ const hasCustomDateRange = customActivationDateTime && customEndDateTime;
           </button>
         )}
         {hasCustomDateRange && !isWithinRange && (
-          <p>
-              Task will be accessible on{" "}
-              {selectedActivity.customActivationDateTime.toLocaleString()}.
-          </p>
+          <div className={styles.taskMessageDiv} style={{ color: currentDateTime > customEndDateTime ? 'red' : 'inherit' }}>
+          {currentDateTime > customEndDateTime
+            ? "The task that you are approaching has been ended."
+            : `Task will be accessible on ${selectedActivity.customActivationDateTime.toLocaleString()}.`}
+        </div>
         )}
       </div>
     </div>
