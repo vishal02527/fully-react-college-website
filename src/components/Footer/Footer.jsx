@@ -66,7 +66,7 @@ function Footer() {
           </Link>
         </div>
       </div>
-      <p className={styles.creator}>&copy; created by Vishal Kumar</p>
+      <p className={styles.creator}>&copy; All rights reserved 2024, Vishal Kumar</p>
     </footer>
   );
 }

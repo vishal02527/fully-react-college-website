@@ -3,7 +3,7 @@
 }
 .formContainer {
   max-width: 50%;
-  margin: 0 auto;
+  margin: 40px auto 0px;
   padding: 20px 20px 40px;
   box-sizing: 0;
   font-family: "Poppins", sans-serif;
@@ -194,12 +194,13 @@ textarea {
   }
   .formContainer {
     max-width: 85%;
-    margin: 0 auto;
+    margin: 30px auto 0px;
     padding: 20px 10px 40px;
   }
 
   .feedHeading {
     text-align: center;
+    font-size: 22px;
   }
 
   .title {

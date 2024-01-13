@@ -137,6 +137,9 @@
 }
 
 /* Style for the Fee payment component */
+.feePage{
+  margin: 20px 0px 80px;
+}
 
 .FeesPaymentDetails {
   padding: 10px 20px;
@@ -232,13 +235,17 @@ button[type="submit"]:hover {
 
 /* Style for the Library Content component */
 
+.libraryDetails{
+  margin-top: 40px;
+}
+
 h2 {
   position: relative;
 }
 
 .logout {
   position: absolute;
-  top: 28%;
+  top: 30%;
   left: 85%;
   font-size: 20px;
 }
@@ -248,7 +255,7 @@ h2 {
 
 .librarySections {
   text-align: center;
-  margin: 20px auto;
+  margin: 40px auto;
   max-width: 800px;
   padding: 20px;
   background-color: #f7f7f7;
@@ -332,7 +339,7 @@ h2 {
 /* Table styles */
 .bookTable {
   width: 80%;
-  margin: 2% 5% 5% 9%;
+  margin: 5% 5% 10% 9%;
   border-collapse: collapse;
 }
 
@@ -471,7 +478,7 @@ h2 {
   }
 
   .logout {
-    top: 49% !important;
+    top: 52% !important;
     left: 42%;
     font-size: 16px;
   }
@@ -480,7 +487,7 @@ h2 {
   }
 
   .librarySections {
-    margin: 50px auto;
+    margin: 70px auto;
     padding: 20px 10px;
     max-width: 90%;
   }
@@ -509,7 +516,7 @@ h2 {
 
   .bookTable {
     width: 92%;
-    margin: 8% 2% 22% 5%;
+    margin: 10% 2% 22% 5%;
   }
 
   .bookTable th,

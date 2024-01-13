@@ -67,7 +67,7 @@ function Admission() {
 
   return (
     <>
-      <h2 style={{ color: "red" }}>Admission Form</h2>
+      <h2 style={{ color: "red", marginTop: "50px" }}>Admission Form</h2>
       <div className={styles.admissionForm}>
         <form onSubmit={handleSubmit}>
           <div className={styles.formGroup}>

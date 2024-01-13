@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  margin: 2% auto;
+  margin: 3% auto 5%;
 }
 
 .course-details {
@@ -54,7 +54,7 @@
 @media (max-width: 768px) {
   .course-details-container {
     padding: 10px;
-    margin: 10% auto;
+    margin: 13% auto 20%;
   }
 
   .course-details {

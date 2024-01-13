@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import styles from "./BasicDetails.module.css";
 import Campus from "../Campus/Campus.module.css";
 import admitprocess from "../Admission process/AdmissionProcess.module.css";
+import FAQ from "../Admission process/FAQ";
 import PageNotFound from "../../404 error page/404Page";
 
 function BasicDetails() {
@@ -261,6 +262,9 @@ function BasicDetails() {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <FAQ />
         </div>
       </div>
     );

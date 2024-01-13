@@ -22,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .campusFeature {
@@ -65,6 +65,7 @@
 
 .campusMap {
   margin-top: 30px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -109,6 +110,9 @@
     transform: scale(1.028);
   }
 
+  .campusMap{
+    margin-bottom: 60px;
+  }
   .campusMap iframe {
     height: 220px;
   }

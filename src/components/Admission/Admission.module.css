@@ -1,6 +1,6 @@
 .admissionForm {
   max-width: 600px;
-  margin: 1% auto 2%;
+  margin: 1% auto 5%;
   padding: 30px 20px;
   border-radius: 10px;
   color: #fff;
@@ -61,9 +61,6 @@ textarea:focus {
   margin: 20px 180px;
 }
 
-h2 {
-  color: red;
-}
 .submitbtn {
   margin-top: 20px;
   background-color: #5ec52e;

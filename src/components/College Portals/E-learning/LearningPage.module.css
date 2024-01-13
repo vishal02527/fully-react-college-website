@@ -1,5 +1,5 @@
 .eContent {
-  margin: 30px auto;
+  margin: 40px auto 80px;
 }
 .btnContent {
   margin: 20px 10px;
@@ -33,6 +33,9 @@
 }
 .LearningPageDiv h2 {
   color: red;
+}
+.LearningPageDiv p{
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 600px) {

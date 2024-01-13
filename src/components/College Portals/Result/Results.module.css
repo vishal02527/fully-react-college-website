@@ -13,7 +13,7 @@
 .resultpage {
   display: flex;
   justify-content: space-evenly;
-  margin: 4% 0%;
+  margin: 5% 0% 8%;
 }
 
 .resultsList {

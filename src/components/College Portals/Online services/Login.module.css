@@ -1,6 +1,6 @@
 .loginContainer {
   width: 300px;
-  margin: 2% 39.5% 5%;
+  margin: 1% 39.5% 5%;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -78,7 +78,7 @@
 @media screen and (max-width: 600px) {
   .loginContainer {
     width: 85%;
-    margin: 2% 5% 10%;
+    margin: 2% 5% 20%;
     padding: 15px 10px;
   }
 

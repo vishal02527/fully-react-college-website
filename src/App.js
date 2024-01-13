@@ -87,7 +87,10 @@ function App() {
         />
         <Route path="/:detail" element={<BasicDetails />} />
         <Route path="/:detail/:activity" element={<AcademicActivities />} />
-        <Route path="/academic-activity/:activity/task" element={<TaskActivity />} />
+        <Route
+          path="/academic-activity/:activity/task"
+          element={<TaskActivity />}
+        />
         <Route path="/share_your_feedback" element={<Feedback />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
