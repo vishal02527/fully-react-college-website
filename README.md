@@ -1,6 +1,6 @@
 # fully-react-college-website
 
- Welcome to fully-react-college-website, it is a platform that provides many facilities to the students like never before. It offers many courses with incredible learnig experiences to the students.
+ Welcome to fully-react-college-website, it is a platform that provides many facilities to the students like never before. It offers many courses with incredible learning experiences to the students.
 
 <img width="952" alt="6" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20171650.png">
 
