@@ -13,7 +13,7 @@ function AcademicActivities() {
       title: "Research Symposium",
       description:
         "The Research Symposium is an annual event where students and faculty present their research findings. It provides a platform for intellectual discussions and knowledge sharing.",
-      date: "Date: November 15, 2023",
+      date: "Date: November 15, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Offline(Campus Auditorium)",
       image:
@@ -25,7 +25,7 @@ function AcademicActivities() {
       title: "Entrepreneurship Workshop",
       description:
         "The Entrepreneurship Workshop is a hands-on program aimed at nurturing students’ entrepreneurial skills. Participants will learn about business ideation, planning, and startup fundamentals.",
-      date: "Date: December 5, 2023",
+      date: "Date: December 5, 2024",
       time: "Time: 10:00 AM",
       mode: "Mode: Offline(Business School Building)",
       image:
@@ -37,61 +37,61 @@ function AcademicActivities() {
       title: "Drawing Competition",
       description:
         'Join our exciting Drawing Competition and showcase your artistic talent. Theme: "Nature\'s Beauty". Prizes to be won!',
-      date: "Date: Jan 1, 2024",
+      date: "Date: Jan 1, 2025",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/844357070/photo/back-to-school-concept.jpg?s=612x612&w=0&k=20&c=N91gKNVv8ljPNcpx3Aha2m8yct_b8QHdBnuBdqP-ZLY=",
-      customActivationDateTime: new Date("2024-01-01T09:00:00"),
-      customEndDateTime: new Date("2024-02-01T09:00:00"), // End time is 09:00 AM on 01 feb.
+      customActivationDateTime: new Date("2025-01-01T09:00:00"),
+      customEndDateTime: new Date("2025-02-01T09:00:00"), // End time is 09:00 AM on 01 feb.
     },
     "best-introduction": {
       title: "Best Introduction",
       description:
         "Learn the skills to make a lasting impression in any setting, from meetings to social events by giving your attractive introduction.",
-      date: "Date: October 1, 2023",
+      date: "Date: October 15, 2024",
       time: "Time: 21:00 PM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1422817042/vector/diversity-handshake-with-two-businesspeople.jpg?s=612x612&w=0&k=20&c=Rqxr0JC9xk1qBaJm2Vl7ErrC3F-Z5eB1Mx_dVC_YDt8=",
-      customActivationDateTime: new Date("2023-10-01T21:00:00"),
-      customEndDateTime: new Date("2023-11-01T21:00:00"),
+      customActivationDateTime: new Date("2024-10-15T21:00:00"),
+      customEndDateTime: new Date("2024-11-15T21:00:00"),
     },
     "coding-challenge": {
       title: "Coding Challenge",
       description:
         "Calling all coders! Join our Coding Challenge and solve real-world problems. Cash prizes for the best solutions!",
-      date: "Date: December 1, 2023",
+      date: "Date: December 10, 2024",
       time: "Time: 21:00 PM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1262697466/vector/programming-code-icon-3d-low-polygonal-abstract-programming-code-symbol-coding-or-hacker.jpg?s=612x612&w=0&k=20&c=9A8KUPzUHRvyAbIWR7wUzPhXVahBesidXexyqTd71fI=",
-      customActivationDateTime: new Date("2023-12-01T21:00:00"),
-      customEndDateTime: new Date("2024-03-01T21:00:00"),
+      customActivationDateTime: new Date("2024-12-10T21:00:00"),
+      customEndDateTime: new Date("2025-03-10T21:00:00"),
     },
     "poetry-contest": {
       title: "Poetry Contest",
       description:
         'Express yourself through poetry in our Poetry Contest. Theme: "Emotions Unveiled". Winners get published in our annual poetry book!',
-      date: "Date: feb 15, 2024",
+      date: "Date: Aug 15, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1313283994/vector/3d-isometric-flat-vector-conceptual-illustration-of-creative-content-writing.jpg?s=612x612&w=0&k=20&c=mQ4aX12qBxcwK1j9o8BUwYlyJQxWFkb-W-suMfLGqkQ=",
-      customActivationDateTime: new Date("2024-02-15T09:00:00"),
-      customEndDateTime: new Date("2024-03-30T21:00:00"),
+      customActivationDateTime: new Date("2024-08-15T09:00:00"),
+      customEndDateTime: new Date("2024-09-15T21:00:00"),
     },
     "acting-show": {
       title: "Acting Show",
       description:
         "Drama enthusiasts, this is your stage! Showcase your acting skills in our Acting Show. Drama scripts provided!",
-      date: "Date: April 10, 2024",
+      date: "Date: Sep 10, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1322032180/vector/children-taking-acting-classes-vector-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=fd98zjT7U4zWPUc0qpU7yy3hCztWnSqpYUdXy51Yg-U=",
-      customActivationDateTime: new Date("2024-04-10T09:00:00"),
-      customEndDateTime: new Date("2024-06-10T09:00:00"),
+      customActivationDateTime: new Date("2024-09-10T09:00:00"),
+      customEndDateTime: new Date("2024-10-10T09:00:00"),
     },
   };
 
