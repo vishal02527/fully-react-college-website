@@ -36,12 +36,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #105290;
+  color: #c4def2;
   transition: linear 0.5s;
 }
 nav a.active {
-  border-bottom: 2px solid #105290;
-  color: #105290;
+  border-bottom: 2px solid #c4def2;
+  color: #c4def2;
 }
 
 /* Define a class to hide the header when printing */

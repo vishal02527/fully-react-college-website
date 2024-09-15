@@ -85,13 +85,13 @@ function AcademicActivities() {
       title: "Acting Show",
       description:
         "Drama enthusiasts, this is your stage! Showcase your acting skills in our Acting Show. Drama scripts provided!",
-      date: "Date: Sep 10, 2024",
+      date: "Date: July 10, 2024",
       time: "Time: 9:00 AM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1322032180/vector/children-taking-acting-classes-vector-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=fd98zjT7U4zWPUc0qpU7yy3hCztWnSqpYUdXy51Yg-U=",
-      customActivationDateTime: new Date("2024-09-10T09:00:00"),
-      customEndDateTime: new Date("2024-10-10T09:00:00"),
+      customActivationDateTime: new Date("2024-07-10T09:00:00"),
+      customEndDateTime: new Date("2024-08-10T09:00:00"),
     },
   };
 

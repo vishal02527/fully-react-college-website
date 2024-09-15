@@ -471,6 +471,7 @@ function Results() {
                 type="text"
                 id="rollNumber"
                 name="rollNumber"
+                placeholder="Enter 12345, 54321, 67890 or 781995 as roll number."
                 value={rollNumber}
                 onChange={(e) => setRollNumber(e.target.value)}
                 required

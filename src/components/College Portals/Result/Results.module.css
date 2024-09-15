@@ -49,16 +49,6 @@
   transition: background-color 0.3s;
 }
 
-.resultsList li:hover {
-  background-color: #fff;
-  color: red;
-}
-
-.resultsList .selected {
-  background-color: red;
-  color: #fff;
-}
-
 .resultForm {
   width: 40%;
   padding-left: 20px;

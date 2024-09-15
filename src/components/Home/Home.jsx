@@ -137,7 +137,7 @@ function Home() {
       <section className={styles.importantPersonSection}>
         <div className={styles.governorDiv}>
           <img
-            src="https://rmpssu.ac.in/images/UP-GOVERNOR.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AUxuf1hhZbpXLv1UGaxMIItz1GYlVd5ywDw1CzGXmUnCSN1lRE3CoojCn0OVfhB7IQA&usqp=CAU"
             alt="Governor of U.P."
             className={styles.personImg}
           />
