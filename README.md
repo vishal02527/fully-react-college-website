@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# fully-react-college-website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Welcome to vishal digital university. It is a platform that provides many facilities to the students like never before. It offers many courses with incredible learning experiences to the students.
 
-## Available Scripts
+<img width="952" alt="6" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20171650.png">
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔗 Links
+<div id="badges">
+  <a href="https://www.linkedin.com/in/vishal-kumar-8303a3283">
+    <img src="https://img.shields.io/badge/Linkedin-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge"/>
+  </a>
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@VishalKumar](https://github.com/vishal02527)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Link
+Vercel: https://vishal-digital-university.vercel.app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Admission
+- Fee Submission
+- Library Facility
+- Learning Content
+- Academic Activities
+- Result Portal
+- Online Services
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Client:** HTML, CSS, JavaScipt, React.js.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Setup Guide
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1). First fork the repository
+2). Clone the project locally using :
+   ```
+   git clone https://github.com/vishal02527/fully-react-college-website.git
+   ```
+3). Open terminal and run command:
+   ```
+   cd fully-react-college-website
+   ```
+4). Add remote using command:
+  ```
+  git remote add origin https://github.com/vishal02527/fully-react-college-website.git
+  ```
+5). Setup upstream using command 
+   ```
+ git remote add upstream https://github.com/vishal02527/fully-react-college-website.git
+ ```
+6). Make sure you have **Live Server** extension installed on your code editor if you're using vs-code.
+7). Finally run index.html using Go live.
 
-## Learn More
+## Screen Shots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img width="944" alt="1" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20171801.png">
+<img width="944" alt="1" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20171036.png">
+<img width="947" alt="2" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20174045.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20174123.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20170650.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20164914.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20165848.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>Project Contributors🫂</h2>
 
-### Code Splitting
+<a href="https://github.com/vishal02527/fully-react-college-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vishal02527/fully-react-college-website" />
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Contributions are always welcome! 🎉</h2>
