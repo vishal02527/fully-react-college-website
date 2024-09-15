@@ -42,7 +42,7 @@ function Home() {
                 src="https://media.istockphoto.com/id/477633485/photo/team-of-successful-university-graduates-raising-their-convocation-caps.jpg?s=612x612&w=0&k=20&c=Cg9aAKKOFJkukureA3hzdnXin42O-GCBP60b4h5CLic="
                 alt="Carousel 1"
                 width={1600}
-                height={500}
+                height={600}
                 className={styles.carouselImage}
               />
             </div>
@@ -51,34 +51,25 @@ function Home() {
                 src="https://media.istockphoto.com/id/1254127323/photo/businesswoman-holding-a-speech.jpg?s=612x612&w=0&k=20&c=HpdVnNM-fIjoy1NI-iE01H4oDKn3DScwr1jqkEf9aMk="
                 alt="Carousel 3"
                 width={1600}
-                height={500}
+                height={600}
                 className={styles.carouselImage}
               />
             </div>
             <div>
               <img
-                src="https://media.istockphoto.com/id/1142003221/photo/upasna-ghar-kaanch-mandir-a-prayer-hall-inside-the-visva-bharati-university-campus-at.jpg?s=612x612&w=0&k=20&c=TTEb-pOJQbe0KzUzmF2mIBUp2eX7IQYhwYM5TTqGxsc="
+                src="https://media.istockphoto.com/id/171271182/photo/delhi-university-building-and-corridor.jpg?s=612x612&w=0&k=20&c=3vcPST9RRxk71Xbbli8S7v4ytRRZ0yBiVh5eRPItHS0="
                 alt="Carousel 2"
                 width={1600}
-                height={500}
+                height={600}
                 className={styles.carouselImage}
               />
             </div>
             <div>
               <img
-                src="https://media.istockphoto.com/id/541577650/photo/students-go-to-campus-through-park.jpg?s=612x612&w=0&k=20&c=fNmEJh5s0X-0ddiBGEuyxN6HQhNIwEAQVIAlq0txFvU="
+                src="https://media.istockphoto.com/id/914314318/photo/young-man-using-laptop-with-female-student-watching-and-smiling.jpg?s=612x612&w=0&k=20&c=ky2a8mV2Fw8v4QYXFUtxAOOMs14lbOM5BPVyK1xw7-k="
                 alt="Carousel 3"
                 width={1600}
-                height={500}
-                className={styles.carouselImage}
-              />
-            </div>
-            <div>
-              <img
-                src="https://media.istockphoto.com/id/1262645363/vector/vector-of-students-standing-in-line-to-enter-university.jpg?s=612x612&w=0&k=20&c=ngSxj-OZVJS9oFX8h5i6RhxeAB9WzJmOqEY2eGZWSbo="
-                alt="Carousel 3"
-                width={1600}
-                height={500}
+                height={600}
                 className={styles.carouselImage}
               />
             </div>

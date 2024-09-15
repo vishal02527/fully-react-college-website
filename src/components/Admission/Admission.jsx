@@ -251,7 +251,7 @@ function Admission() {
             <h3>Admission form Submitted Successfully!</h3>
             <p className={styles.message}>
               Please copy or note your Unique Student ID for the future
-              reference:
+              reference(Fee Submission):
             </p>
             <p className={styles.studentId}>{studentId}</p>
             <button

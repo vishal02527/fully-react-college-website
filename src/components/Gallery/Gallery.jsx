@@ -13,8 +13,6 @@ const imageUrls = [
   "https://media.istockphoto.com/id/694725410/photo/university-students-studying-in-a-group.jpg?s=612x612&w=0&k=20&c=U59Nnkj7PRvvfZa3w7POhngttyykKgvWpd1JyVyF0fM=",
   "https://media.istockphoto.com/id/914314318/photo/young-man-using-laptop-with-female-student-watching-and-smiling.jpg?s=612x612&w=0&k=20&c=ky2a8mV2Fw8v4QYXFUtxAOOMs14lbOM5BPVyK1xw7-k=",
   "https://media.istockphoto.com/id/171271182/photo/delhi-university-building-and-corridor.jpg?s=612x612&w=0&k=20&c=3vcPST9RRxk71Xbbli8S7v4ytRRZ0yBiVh5eRPItHS0=",
-  "https://media.istockphoto.com/id/1297580844/photo/medical-students-writing-examination-paper.jpg?s=612x612&w=0&k=20&c=QFp2Qi5OoIFrmeB_90A4oukc7q17WK1oYzmgzMnkS1Y=",
-  "https://media.istockphoto.com/id/458650719/photo/delhi-university-building-and-grounds.jpg?s=612x612&w=0&k=20&c=vOAOqdo52u8MahD7lHtA3bPhHM589ir1tokH34Ioz_0=",
   "https://media.istockphoto.com/id/1077755412/photo/new-found-college-buddies.jpg?s=612x612&w=0&k=20&c=qSGW3KViwNLfAH1TdhelaX9uX6LI5GEJx4ye8gNCSUw=",
   "https://media.istockphoto.com/id/1064946324/photo/a-picnic-on-a-field-inside-of-the-trinity-college-in-dublin-ireland.jpg?s=612x612&w=0&k=20&c=LnT1BPmwg15Eu8l-ZyiRmhlgntJSkV9SX9BNaHGB4P0=",
 ];

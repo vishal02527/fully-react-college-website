@@ -113,16 +113,16 @@ a span {
   margin: 12px auto 4px;
   padding: 4px 8px;
   max-width: 120px;
-  border: 1px solid orange;
+  border: 1px solid #f88f69;
   background-color: #fff;
 }
 .ProfileBtn a {
   text-decoration: none;
-  color: orange;
+  color: #f88f69;
 }
 .ProfileBtn:hover {
-  background-color: orange;
-  transition: linear 0.2s;
+  background-color: #f88f69;
+  transition: all 0.2s;
 }
 .ProfileBtn:hover a {
   color: #fff;
