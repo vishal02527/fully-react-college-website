@@ -64,6 +64,9 @@ Vercel: https://vishal-digital-university.vercel.app
 <img width="944" alt="1" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20171801.png">
 <img width="947" alt="2" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20174045.png">
 <img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-14%20174123.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20170650.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20164914.png">
+<img width="950" alt="3" src="https://github.com/vishal02527/fully-react-college-website/blob/main/public/Screenshot%202024-09-15%20165848.png">
 
 <h2>Project Contributors🫂</h2>
 
