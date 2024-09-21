@@ -14,7 +14,7 @@
 </div>
 
 
-## Authors
+## Author
 
 - [@VishalKumar](https://github.com/vishal02527)
 
