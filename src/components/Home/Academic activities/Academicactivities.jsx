@@ -49,13 +49,13 @@ function AcademicActivities() {
       title: "Best Introduction",
       description:
         "Learn the skills to make a lasting impression in any setting, from meetings to social events by giving your attractive introduction.",
-      date: "Date: October 15, 2024",
-      time: "Time: 21:00 PM",
+      date: "Date: September 30, 2024",
+      time: "Time: 20:00 PM",
       mode: "Mode: Online",
       image:
         "https://media.istockphoto.com/id/1422817042/vector/diversity-handshake-with-two-businesspeople.jpg?s=612x612&w=0&k=20&c=Rqxr0JC9xk1qBaJm2Vl7ErrC3F-Z5eB1Mx_dVC_YDt8=",
-      customActivationDateTime: new Date("2024-10-15T21:00:00"),
-      customEndDateTime: new Date("2024-11-15T21:00:00"),
+      customActivationDateTime: new Date("2024-09-30T20:00:00"),
+      customEndDateTime: new Date("2024-10-30T20:00:00"),
     },
     "coding-challenge": {
       title: "Coding Challenge",
